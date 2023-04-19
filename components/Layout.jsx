@@ -15,6 +15,15 @@ function Layout({ children }) {
               <Anchor href={"/"}>Home</Anchor>
             </li>
             <li>
+              <Anchor href={"/games"}>Games</Anchor>
+            </li>
+            <li>
+              <Anchor href={"/about"}>About</Anchor>
+            </li>
+            <li>
+              <Anchor href={"/career"}>Career</Anchor>
+            </li>
+            <li>
               <Anchor href={"/contact"}>Contact</Anchor>
             </li>
           </ul>
