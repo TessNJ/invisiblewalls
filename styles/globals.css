@@ -70,6 +70,9 @@ header ul {
 header nav {
   padding: 0 5%;
 }
+footer {
+  background-color: var(--secondary-bg-colour-lighter);
+}
 section {
   padding: 2vw;
 }
@@ -106,6 +109,9 @@ section {
     justify-content: space-evenly;
   }
   main {
+    margin-left: 10vw;
+  }
+  footer {
     margin-left: 10vw;
   }
   .splashSection {

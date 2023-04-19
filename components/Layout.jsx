@@ -30,7 +30,18 @@ function Layout({ children }) {
         </nav>
       </header>
       <>{children}</>
-      <footer></footer>
+      <footer>
+        <div>
+          <h3>Hi</h3>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <Anchor href={"/"}>Home</Anchor>
+            </li>
+          </ul>
+        </nav>
+      </footer>
     </>
   );
 }
