@@ -7,8 +7,7 @@ function Layout({ children }) {
   let logoHeight = "60";
 
   function unfoldMenu() {
-    console.log("hi");
-    document.querySelector(".navMenu").classList.toggle("hide");
+    document.querySelector(".navMenu").classList.toggle("hideMenu");
   }
 
   return (
@@ -20,7 +19,7 @@ function Layout({ children }) {
             <path fillRule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
           </svg>
         </div>
-        <nav className="navMenu hide">
+        <nav className="navMenu hideMenu">
           <ul>
             <li>
               <Anchor href={"/"}>Home</Anchor>
