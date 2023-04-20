@@ -125,7 +125,7 @@ header path.active {
 footer {
   background-color: var(--secondary-bg-colour-lighter);
 }
-section {
+article {
   padding: 2vw;
 }
 
@@ -135,14 +135,32 @@ section {
 }
 .landingPage_introArticle {
   width: 100%;
+  background-color: var(--secondary-bg-colour);
 }
 .landingPage_imageArticle {
   width: 100%;
 }
 
 .linksSection {
-  background-color: var(--secondary-bg-colour);
+  background-color: var(--main-bg-colour-darker);
+  padding: 2vw;
 }
+.linksSection ul {
+  display: flex;
+  flex-direction: row;
+}
+.linksSection li {
+  list-style: none;
+}
+.linksSection a {
+  font-weight: 600;
+  color: var(--accent-colour);
+}
+.linksSection a:hover {
+  color: var(--accent-colour-darker);
+  font-style: italic;
+}
+
 .gallerySection {
   display: grid;
   grid-template-columns: 1fr;
@@ -150,6 +168,9 @@ section {
 
 .galleryArticle {
   order: 1;
+}
+.infoArticle {
+  background-color: var(--secondary-bg-colour);
 }
 
 @media screen and (min-width: 768px) {

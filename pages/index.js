@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Anchor from "../components/Anchor";
 
 export default function Home() {
   return (
@@ -35,9 +36,15 @@ export default function Home() {
         </section>
         <section className="linksSection">
           <ul>
-            <li>Lorem Ipsum</li>
-            <li>Lorem Ipsum</li>
-            <li>Lorem Ipsum</li>
+            <li>
+              <Anchor href="#">Lorem Ipsum</Anchor>
+            </li>
+            <li>
+              <Anchor href="#">Lorem Ipsum</Anchor>
+            </li>
+            <li>
+              <Anchor href="#">Lorem Ipsum</Anchor>
+            </li>
           </ul>
         </section>
         <section className="gallerySection">
@@ -47,7 +54,7 @@ export default function Home() {
             <Image alt="" src={"https://picsum.photos/" + 400} width="300" height="300"></Image>
             <Image alt="" src={"https://picsum.photos/" + 400} width="300" height="300"></Image>
           </article>
-          <article>
+          <article className="infoArticle">
             <h1>Hi</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla suscipit massa ac ullamcorper. Proin vitae condimentum lectus. Pellentesque sollicitudin, diam ac ultricies tincidunt, sapien nisi pulvinar lacus, ac auctor
