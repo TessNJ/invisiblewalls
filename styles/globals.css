@@ -143,6 +143,14 @@ section {
 .linksSection {
   background-color: var(--secondary-bg-colour);
 }
+.gallerySection {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.galleryArticle {
+  order: 1;
+}
 
 @media screen and (min-width: 768px) {
   .hideMenu {
@@ -151,6 +159,12 @@ section {
   .burgerMenu {
     display: none;
   }
+  .gallerySection {
+    grid-template-columns: 1fr 40%;
+  }
+  .galleryArticle {
+    order: 0;
+  }
   header {
     position: fixed;
     display: flex;
@@ -158,7 +172,7 @@ section {
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    width: 10vw;
+    width: 120px;
   }
   header ul {
     margin: 0;
@@ -172,10 +186,10 @@ section {
     position: static;
   }
   main {
-    margin-left: 10vw;
+    margin-left: 120px;
   }
   footer {
-    margin-left: 10vw;
+    margin-left: 120px;
   }
   .splashSection {
     flex-direction: row;

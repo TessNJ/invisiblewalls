@@ -40,12 +40,12 @@ export default function Home() {
             <li>Lorem Ipsum</li>
           </ul>
         </section>
-        <section className="gallarySection">
-          <article>
-            <Image alt="" src={"https://picsum.photos/" + 400} width="200" height="200"></Image>
-            <Image alt="" src={"https://picsum.photos/" + 400} width="200" height="200"></Image>
-            <Image alt="" src={"https://picsum.photos/" + 400} width="200" height="200"></Image>
-            <Image alt="" src={"https://picsum.photos/" + 400} width="200" height="200"></Image>
+        <section className="gallerySection">
+          <article className="galleryArticle">
+            <Image alt="" src={"https://picsum.photos/" + 400} width="300" height="300"></Image>
+            <Image alt="" src={"https://picsum.photos/" + 400} width="300" height="300"></Image>
+            <Image alt="" src={"https://picsum.photos/" + 400} width="300" height="300"></Image>
+            <Image alt="" src={"https://picsum.photos/" + 400} width="300" height="300"></Image>
           </article>
           <article>
             <h1>Hi</h1>
