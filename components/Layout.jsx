@@ -45,7 +45,16 @@ function Layout({ children }) {
       <>{children}</>
       <footer>
         <div>
-          <h3>Hi</h3>
+          <h3>Lorem ipsum dolor</h3>
+          <p>
+            Lorem ipsum adipiscing elit. <br />
+            Pellentesque fringilla suscipit massa. <br /> Proin vitae condimentum lectus.
+          </p>
+        </div>
+        <div>
+          <Image alt="" src={"https://picsum.photos/" + 30 + "/" + 30} width="30" height="30" />
+          <Image alt="" src={"https://picsum.photos/" + 30 + "/" + 30} width="30" height="30" />
+          <Image alt="" src={"https://picsum.photos/" + 30 + "/" + 30} width="30" height="30" />
         </div>
         <nav>
           <ul>

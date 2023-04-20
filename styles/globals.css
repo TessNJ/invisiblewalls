@@ -137,6 +137,11 @@ article {
   width: 100%;
   background-color: var(--secondary-bg-colour);
 }
+.landingPage_introArticle p,
+.landingPage_introArticle {
+  color: var(--main-bg-colour-darker);
+}
+
 .landingPage_imageArticle {
   width: 100%;
 }
@@ -171,6 +176,11 @@ article {
 }
 .infoArticle {
   background-color: var(--secondary-bg-colour);
+}
+.infoArticle p,
+.infoArticle h2,
+.infoArticle h3 {
+  color: var(--main-bg-colour-darker);
 }
 
 @media screen and (min-width: 768px) {
