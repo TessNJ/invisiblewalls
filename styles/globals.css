@@ -64,9 +64,12 @@ p {
 a {
   font-family: var(--main-font);
   text-decoration: none;
+  display: block;
 }
 li {
   font-family: var(--main-font);
+  width: 100%;
+  text-align: center;
 }
 
 header {
@@ -112,7 +115,12 @@ header nav {
   left: 0;
 }
 
-/* .burgerMenu {} */
+header path {
+  fill: var(--secondary-bg-colour);
+}
+header path.active {
+  fill: var(--accent-colour);
+}
 
 footer {
   background-color: var(--secondary-bg-colour-lighter);
