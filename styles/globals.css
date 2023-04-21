@@ -270,9 +270,18 @@ article {
 
 .galleryArticle {
   order: 1;
+  min-height: 600px;
 }
 .infoArticle {
   background-color: var(--secondary-bg-colour);
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.infoLinks {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 .infoArticle p,
 .infoArticle h2,
