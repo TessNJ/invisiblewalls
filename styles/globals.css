@@ -245,7 +245,7 @@ article {
 
 .linksSection {
   background-color: var(--main-bg-colour-darker);
-  padding: 2vw;
+  padding: 4vw 2vw;
 }
 .linksSection ul {
   display: flex;
@@ -253,10 +253,15 @@ article {
 }
 .linksSection li {
   list-style: none;
+  border-right: var(--accent-colour) solid 3px;
 }
+.linksSection li:first-child {
+  border-left: var(--accent-colour-darker) solid 3px;
+}
+
 .linksSection a {
   font-weight: 600;
-  color: var(--accent-colour);
+  color: var(--main-font-colour);
 }
 .linksSection a:hover {
   color: var(--accent-colour-darker);
@@ -310,6 +315,9 @@ article {
   transition: 0.3s;
   animation-timing-function: ease-in;
   cursor: pointer;
+}
+.galleryArticle img {
+  border-radius: 20%;
 }
 .buttonGallery:hover {
   box-shadow: #828282 3px 3px 5px 1px;
