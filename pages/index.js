@@ -24,14 +24,17 @@ export default function Home() {
             <div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla suscipit massa ac ullamcorper. Proin vitae condimentum lectus. Pellentesque sollicitudin, diam ac ultricies tincidunt, sapien nisi pulvinar lacus, ac
-                auctor urna felis non dolor. Pellentesque consequat lobortis interdum. Curabitur vel consectetur metus. Nullam lobortis purus sit amet hendrerit ullamcorper. Praesent lacinia lectus magna, sit amet ultrices odio interdum eu.
+                auctor urna felis non dolor. Pellentesque consequat lobortis interdum.
               </p>
+              <button className="buttonSplash iconHover" onClick={(event) => event.preventDefault()}>
+                Read More
+              </button>
             </div>
           </article>
           <article className="landingPage_imageArticle">
-            <Image alt="" src={"https://picsum.photos/" + 400} width="400" height="400"></Image>
-            <Image alt="" src={"https://picsum.photos/" + 200} width="200" height="200"></Image>
-            <Image alt="" src={"https://picsum.photos/" + 100} width="100" height="100"></Image>
+            <Image className="imageAr1 iconHover" alt="" src={"https://picsum.photos/" + 300} width="300" height="300"></Image>
+            <Image className="imageAr2 iconHover" alt="" src={"https://picsum.photos/" + 175} width="175" height="175"></Image>
+            <Image className="imageAr3 iconHover" alt="" src={"https://picsum.photos/" + 100} width="100" height="100"></Image>
           </article>
         </section>
         <section className="linksSection">

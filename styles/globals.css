@@ -184,14 +184,63 @@ article {
 .landingPage_introArticle {
   width: 100%;
   background-color: var(--secondary-bg-colour);
+  padding: 8vw 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+.landingPage_introArticle div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vw;
+}
+
 .landingPage_introArticle p,
-.landingPage_introArticle {
+.landingPage_introArticle h1 {
   color: var(--main-bg-colour-darker);
+}
+
+.buttonSplash {
+  align-self: flex-end;
+  background-color: var(--accent-colour);
+  color: var(--light-colour);
+  border: none;
+  padding: 2% 7%;
+  font-weight: 600;
+  letter-spacing: 0.3vw;
+  border-radius: 0.3vw;
 }
 
 .landingPage_imageArticle {
   width: 100%;
+  padding: 11vw 5vw;
+  position: relative;
+  min-height: 600px;
+  display: grid;
+  grid-template-columns: 30vw 1fr;
+  grid-template-rows: 1fr;
+  gap: 5vw;
+}
+
+.imageAr1 {
+  grid-column: 2;
+  align-self: flex-end;
+  justify-self: flex-start;
+  border-radius: 20%;
+}
+.imageAr2 {
+  grid-column: 2;
+  align-self: flex-start;
+  justify-self: flex-start;
+  border-radius: 20%;
+}
+.imageAr3 {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: flex-end;
+  justify-self: flex-end;
+  border-radius: 20%;
 }
 
 .linksSection {
@@ -270,21 +319,42 @@ article {
   footer {
     margin-left: 120px;
   }
-  .splashSection {
-    flex-direction: row;
-  }
-  .landingPage_introArticle {
-    width: 50%;
-  }
-  .landingPage_imageArticle {
-    width: 50%;
-  }
   @media screen and (min-width: 1101px) {
+    .splashSection {
+      flex-direction: row;
+    }
     .landingPage_introArticle {
       width: 40%;
     }
     .landingPage_imageArticle {
       width: 60%;
+      padding: 5%;
+      position: relative;
+      height: inherit;
+      display: grid;
+      grid-template-columns: 15vw 1fr;
+      grid-template-rows: 1fr 15vw;
+      gap: 3vw;
+    }
+
+    .imageAr1 {
+      grid-column: 2;
+      align-self: flex-end;
+      justify-self: flex-start;
+      border-radius: 20%;
+    }
+    .imageAr2 {
+      grid-column: 2;
+      align-self: flex-start;
+      justify-self: flex-start;
+      border-radius: 20%;
+    }
+    .imageAr3 {
+      grid-column: 1;
+      grid-row: 1;
+      align-self: flex-end;
+      justify-self: flex-end;
+      border-radius: 20%;
     }
   }
 }
