@@ -52,10 +52,10 @@ export default function Home() {
         </section>
         <section className="gallerySection">
           <article className="galleryArticle">
-            <Image alt="" src={"https://picsum.photos/" + 400} width="300" height="300"></Image>
-            <Image alt="" src={"https://picsum.photos/" + 400} width="300" height="300"></Image>
-            <Image alt="" src={"https://picsum.photos/" + 400} width="300" height="300"></Image>
-            <Image alt="" src={"https://picsum.photos/" + 400} width="300" height="300"></Image>
+            <Image className="iconHover" alt="" src={"https://picsum.photos/" + 400} width="300" height="300"></Image>
+            <Image className="iconHover" alt="" src={"https://picsum.photos/" + 400} width="300" height="300"></Image>
+            <Image className="iconHover" alt="" src={"https://picsum.photos/" + 400} width="300" height="300"></Image>
+            <Image className="iconHover" alt="" src={"https://picsum.photos/" + 400} width="300" height="300"></Image>
           </article>
           <article className="infoArticle">
             <div>
@@ -67,10 +67,10 @@ export default function Home() {
             </div>
             <div className="infoLinks">
               <h3>Hi</h3>
-              <button>Hi</button>
-              <button>Hi</button>
-              <button>Hi</button>
-              <button>Hi</button>
+              <button className="buttonGallery">Hi</button>
+              <button className="buttonGallery">Hi</button>
+              <button className="buttonGallery">Hi</button>
+              <button className="buttonGallery">Hi</button>
             </div>
           </article>
         </section>
