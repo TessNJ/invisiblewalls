@@ -15,10 +15,10 @@ export default function Home() {
         <section className="splashSection">
           <article className="landingPage_introArticle">
             <div>
-              <h1>Home</h1>
+              <h1>Invisible Walls</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla suscipit massa ac ullamcorper. Proin vitae condimentum lectus. Pellentesque sollicitudin, diam ac ultricies tincidunt, sapien nisi pulvinar lacus, ac
-                auctor urna felis non dolor. Pellentesque consequat lobortis interdum. Curabitur vel consectetur metus. Nullam lobortis purus sit amet hendrerit ullamcorper. Praesent lacinia lectus magna, sit amet ultrices odio interdum eu.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla suscipit massa ac ullamcorper. <br />
+                Proin vitae condimentum lectus. Pellentesque sollicitudin, diam ac ultricies tincidunt, sapien nisi pulvinar lacus, ac auctor urna felis non dolor. Pellentesque consequat lobortis interdum.
               </p>
             </div>
             <div>

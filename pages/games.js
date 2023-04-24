@@ -1,7 +1,9 @@
 import React from "react";
 import Head from "next/head";
+import Game from "../components/Game";
 
 export default function Games() {
+  const loopTime = 4;
   return (
     <>
       <Head>
@@ -11,7 +13,17 @@ export default function Games() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>Games</h1>
+        <section>
+          <h1>Games</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!</p>
+        </section>
+        <section>
+          {[...Array(loopTime)].map((e, i) => (
+            <Game key={i}>{i}</Game>
+          ))}
+        </section>
+        <section></section>
       </main>
     </>
   );
