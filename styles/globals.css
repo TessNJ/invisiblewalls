@@ -324,6 +324,34 @@ article {
   transform: translate(5px, 5px);
 }
 
+.gamesIntro {
+  padding: 6vw 2vw;
+  background-image: url("../public/shapelined-_JBKdviweXI-unsplash.jpg");
+  background-size: cover;
+}
+
+.gamesGrid {
+  display: grid;
+}
+
+.gamesGrid article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gamesGrid img {
+  max-width: 100%;
+}
+.gamesGrid div {
+  max-width: 62.5%;
+}
+
+.gamesGrid article:nth-of-type(2n) {
+  background-color: #2d2d2d;
+  flex-direction: row-reverse;
+}
+
 @media screen and (min-width: 768px) {
   .hideMenu {
     visibility: visible;

@@ -13,12 +13,12 @@ export default function Games() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <section>
+        <section className="gamesIntro">
           <h1>Games</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!</p>
         </section>
-        <section>
+        <section className="gamesGrid">
           {[...Array(loopTime)].map((e, i) => (
             <Game key={i}>{i}</Game>
           ))}
