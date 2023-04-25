@@ -44,19 +44,24 @@ function Layout({ children }) {
       </header>
       <>{children}</>
       <footer>
+        <div className="footerLogos">
+          <Image className="iconHover" alt="" src={"https://picsum.photos/" + 300 + "/" + 100} width="300" height="100" />
+          <Image className="iconHover" alt="" src={"https://picsum.photos/" + 300 + "/" + 100} width="300" height="100" />
+        </div>
         <div className="socialLinks">
+          <Image className="iconHover" alt="" src={"https://picsum.photos/" + 50 + "/" + 50} width="50" height="50" />
+          <Image className="iconHover" alt="" src={"https://picsum.photos/" + 50 + "/" + 50} width="50" height="50" />
           <Image className="iconHover" alt="" src={"https://picsum.photos/" + 50 + "/" + 50} width="50" height="50" />
           <Image className="iconHover" alt="" src={"https://picsum.photos/" + 50 + "/" + 50} width="50" height="50" />
           <Image className="iconHover" alt="" src={"https://picsum.photos/" + 50 + "/" + 50} width="50" height="50" />
         </div>
         <div className="addressFooter">
-          <h4>Lorem ipsum dolor</h4>
           <p>
             Lorem ipsum adipiscing elit. <br />
             Pellentesque fringilla suscipit massa. <br /> Proin vitae condimentum lectus.
           </p>
         </div>
-        <nav>
+        <nav className="footerLinks">
           <ul>
             <li>
               <Anchor href={"/"}>Home</Anchor>

@@ -130,37 +130,55 @@ header path.active {
 footer {
   background-color: var(--main-bg-colour-darker);
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  padding: 5%;
+  align-items: center;
+  padding: 15vw 2vw;
+  color: var(--main-font-colour);
+  row-gap: 6vw;
 }
 
-footer ul {
-  margin: 0;
-  padding: 0;
-}
 footer nav li {
   list-style: none;
-  text-align: left;
 }
 footer nav a {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-style: italic;
-  color: var(--secondary-bg-colour);
+  color: var(--accent-colour);
+  font-weight: 700;
 }
 footer nav a:hover {
   color: var(--accent-colour-darker);
   font-style: normal;
 }
+footer nav {
+  width: 100%;
+}
+footer nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerLogos {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footerLogos img {
+  max-width: 40%;
+}
 
 .socialLinks {
   display: flex;
-  gap: 20%;
-  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  padding: 2vw;
+  justify-content: space-around;
 }
 
 .socialLinks img {
-  height: 50px;
-  /* border-radius: 1vw; */
+  max-width: 10%;
 }
 
 .addressFooter {
@@ -170,12 +188,10 @@ footer nav a:hover {
   flex-direction: column;
   justify-content: space-between;
 }
-.addressFooter h4 {
-  font-size: 1.2rem;
-  color: var(--accent-colour-darker);
-}
 .addressFooter p {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
+  font-weight: 200;
+  color: var(--main-font-colour);
 }
 
 article {
@@ -420,6 +436,18 @@ article {
   }
 
   @media screen and (min-width: 1101px) {
+    footer {
+      padding: 5vw 17vw;
+      gap: 4vw;
+    }
+    .footerLogos {
+      justify-content: space-evenly;
+      padding: 0;
+    }
+    .socialLinks {
+      justify-content: space-evenly;
+      padding: 0 30%;
+    }
     .gamesGrid img {
       max-width: 60%;
     }
