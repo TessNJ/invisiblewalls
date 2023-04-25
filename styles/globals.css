@@ -1,11 +1,11 @@
-@import url("https://use.typekit.net/wdw0bwy.css");
+/* @import url("https://use.typekit.net/wdw0bwy.css"); */
 
 :root {
-  --main-bg-colour: #e8e8e8;
-  --main-bg-colour-darker: #c8c8c8;
+  --main-bg-colour: #222222;
+  --main-bg-colour-darker: rgb(0, 0, 0);
   --secondary-bg-colour: #2d2d2d;
   --secondary-bg-colour-lighter: #5f5f5f;
-  --main-font-colour: #2d2d2d;
+  --main-font-colour: #ffffff;
   --secondary-font-colour: white;
   --dark-colour: black;
   --light-colour: white;
@@ -73,7 +73,7 @@ li {
 }
 
 header {
-  background-color: var(--light-colour);
+  background-color: var(--dark-colour);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -110,7 +110,7 @@ header ul {
 header nav {
   width: 100%;
   position: absolute;
-  background-color: var(--light-colour);
+  background-color: var(--main-font-colour);
   top: 9vh;
   left: 0;
 }
@@ -155,7 +155,7 @@ footer nav a:hover {
 
 .socialLinks img {
   height: 50px;
-  border-radius: 1vw;
+  /* border-radius: 1vw; */
 }
 
 .addressFooter {
@@ -198,7 +198,7 @@ article {
 
 .landingPage_introArticle p,
 .landingPage_introArticle h1 {
-  color: var(--main-bg-colour-darker);
+  color: var(--main-font-colour);
 }
 
 .buttonSplash {
@@ -209,7 +209,7 @@ article {
   padding: 2% 7%;
   font-weight: 600;
   letter-spacing: 0.3vw;
-  border-radius: 0.3vw;
+  /* border-radius: 0.3vw; */
 }
 
 .landingPage_imageArticle {
@@ -221,26 +221,29 @@ article {
   grid-template-columns: 30vw 1fr;
   grid-template-rows: 1fr;
   gap: 5vw;
+  background: url("../public/334488809_540071724778281_1717384824777940824_n.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .imageAr1 {
   grid-column: 2;
   align-self: flex-end;
   justify-self: flex-start;
-  border-radius: 20%;
+  /* border-radius: 20%; */
 }
 .imageAr2 {
   grid-column: 2;
   align-self: flex-start;
   justify-self: flex-start;
-  border-radius: 20%;
+  /* border-radius: 20%; */
 }
 .imageAr3 {
   grid-column: 1;
   grid-row: 1;
   align-self: flex-end;
   justify-self: flex-end;
-  border-radius: 20%;
+  /* border-radius: 20%; */
 }
 
 .linksSection {
@@ -275,14 +278,22 @@ article {
 
 .galleryArticle {
   order: 1;
-  min-height: 700px;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   align-items: center;
   justify-items: center;
-  gap: 5vw;
-  padding: 5vw;
+  /* gap: 0; */
+  margin: 0;
+  padding: 0;
+}
+.galleryArticle div {
+  width: 100%;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  position: relative;
+}
+.galleryArticle img {
 }
 
 .infoArticle {
@@ -301,7 +312,7 @@ article {
 .infoArticle p,
 .infoArticle h2,
 .infoArticle h3 {
-  color: var(--main-bg-colour-darker);
+  color: var(--main-font-colour);
 }
 
 .buttonGallery {
@@ -311,14 +322,12 @@ article {
   padding: 2% 7%;
   font-weight: 600;
   letter-spacing: 0.3vw;
-  border-radius: 0.3vw;
+  /* border-radius: 0.3vw; */
   transition: 0.3s;
   animation-timing-function: ease-in;
   cursor: pointer;
 }
-.galleryArticle img {
-  border-radius: 20%;
-}
+
 .buttonGallery:hover {
   box-shadow: #828282 3px 3px 5px 1px;
   transform: translate(5px, 5px);
@@ -390,8 +399,13 @@ article {
     justify-content: space-evenly;
   }
 
+  header li {
+    transform: rotate(-25deg);
+  }
+
   header nav {
     position: static;
+    background-color: var(--dark-colour);
   }
   main {
     margin-left: 120px;
@@ -399,24 +413,13 @@ article {
   footer {
     margin-left: 120px;
   }
-  .galleryArticle {
-    order: 1;
-    min-height: 700px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-    row-gap: 100px;
-    padding: 5vw;
-  }
+
   @media screen and (min-width: 1101px) {
     .gallerySection {
-      grid-template-columns: 1fr 40%;
+      grid-template-columns: 1fr 43%;
     }
     .galleryArticle {
       order: 0;
-      row-gap: 70px;
     }
     .splashSection {
       flex-direction: row;
@@ -439,20 +442,20 @@ article {
       grid-column: 2;
       align-self: flex-end;
       justify-self: flex-start;
-      border-radius: 20%;
+      /* border-radius: 20%; */
     }
     .imageAr2 {
       grid-column: 2;
       align-self: flex-start;
       justify-self: flex-start;
-      border-radius: 20%;
+      /* border-radius: 20%; */
     }
     .imageAr3 {
       grid-column: 1;
       grid-row: 1;
       align-self: flex-end;
       justify-self: flex-end;
-      border-radius: 20%;
+      /* border-radius: 20%; */
     }
 
     .gamesGrid {
@@ -485,8 +488,15 @@ article {
   animation-timing-function: ease-in;
 }
 .iconHover:hover {
-  transform: scale(1.2);
-  box-shadow: #828282 3px 3px 5px 1px;
+  transform: scale(1.2) rotate(5deg);
+  box-shadow: #000000 3px 3px 5px 1px;
+}
+.imgHover {
+  transition: 0.5s ease-in-out all;
+  transform: scale3d(1, 1, 1);
+}
+.imgHover:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
 }
 
 @keyframes popout {

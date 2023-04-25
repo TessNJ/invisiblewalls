@@ -52,10 +52,18 @@ export default function Home() {
         </section>
         <section className="gallerySection">
           <article className="galleryArticle">
-            <Image className="iconHover" alt="" src={"https://picsum.photos/" + 400} width="300" height="300"></Image>
-            <Image className="iconHover" alt="" src={"https://picsum.photos/" + 400} width="300" height="300"></Image>
-            <Image className="iconHover" alt="" src={"https://picsum.photos/" + 400} width="300" height="300"></Image>
-            <Image className="iconHover" alt="" src={"https://picsum.photos/" + 400} width="300" height="300"></Image>
+            <div>
+              <Image className="imgHover" alt="" src={"https://picsum.photos/" + 600} width="600" height="600"></Image>
+            </div>
+            <div>
+              <Image className="imgHover" alt="" src={"https://picsum.photos/" + 600} width="600" height="600"></Image>
+            </div>
+            <div>
+              <Image className="imgHover" alt="" src={"https://picsum.photos/" + 600} width="600" height="600"></Image>
+            </div>
+            <div>
+              <Image className="imgHover" alt="" src={"https://picsum.photos/" + 600} width="600" height="600"></Image>
+            </div>
           </article>
           <article className="infoArticle">
             <div>
