@@ -1,4 +1,4 @@
-/* @import url("https://use.typekit.net/wdw0bwy.css"); */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
   --main-bg-colour: #222222;
@@ -11,7 +11,7 @@
   --light-colour: white;
   --accent-colour: #ff412c;
   --accent-colour-darker: #d42815;
-  --main-font: "futura-pt", sans-serif;
+  --main-font: "Nunito Sans", sans-serif;
 }
 
 * {
@@ -66,6 +66,10 @@ a {
   text-decoration: none;
   display: block;
 }
+button {
+  font-family: var(--main-font);
+  display: block;
+}
 li {
   font-family: var(--main-font);
   width: 100%;
@@ -90,11 +94,12 @@ header li {
 
 header a {
   color: var(--accent-colour);
-  font-weight: 600;
-  font-style: italic;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
 }
 header a:hover {
-  font-style: normal;
+  font-style: italic;
   color: var(--accent-colour-darker);
 }
 
@@ -204,10 +209,10 @@ article {
 .buttonSplash {
   align-self: flex-end;
   background-color: var(--accent-colour);
-  color: var(--light-colour);
+  color: var(--dark-colour);
   border: none;
   padding: 2% 7%;
-  font-weight: 600;
+  font-weight: 900;
   letter-spacing: 0.3vw;
   /* border-radius: 0.3vw; */
 }
@@ -293,8 +298,6 @@ article {
   overflow: hidden;
   position: relative;
 }
-.galleryArticle img {
-}
 
 .infoArticle {
   background-color: var(--secondary-bg-colour);
@@ -341,29 +344,31 @@ article {
 
 .gamesGrid {
   display: grid;
-  padding: 15vw 4vw;
+  /* padding: 15vw 4vw; */
 }
 
 .gamesGrid article {
-  padding: 15vw 4vw;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   row-gap: 4vw;
-  background-color: var(--secondary-bg-colour-lighter);
-  color: var(--main-bg-colour-darker);
+  background-color: var(--main-bg-colour);
+  color: var(--main-font-colour);
 }
 
 .gamesGrid div {
+  padding: 5vw 4vw;
   display: flex;
   row-gap: 3vw;
   flex-direction: column;
+  padding: 8vw 5vw;
 }
-.gamesGrid img {
-  max-width: 70%;
-}
+/* .gamesGrid img {  max-width: 70%;} */
 .gamesGrid article h4 {
   color: var(--accent-colour);
+  font-weight: 800;
+  text-transform: uppercase;
 }
 .gamesGrid article:nth-of-type(2n) h4 {
   color: var(--accent-colour-darker);
@@ -371,7 +376,7 @@ article {
 
 .gamesGrid article:nth-of-type(2n) {
   background-color: var(--secondary-bg-colour);
-  color: var(--main-bg-colour-darker);
+  color: var(--main-font-colour);
   /* flex-direction: row-reverse; */
 }
 
@@ -415,6 +420,9 @@ article {
   }
 
   @media screen and (min-width: 1101px) {
+    .gamesGrid img {
+      max-width: 60%;
+    }
     .gallerySection {
       grid-template-columns: 1fr 43%;
     }
@@ -469,10 +477,10 @@ article {
     }
 
     .gamesGrid img {
-      max-width: 100%;
+      max-width: 50%;
     }
     .gamesGrid div {
-      max-width: 62.5%;
+      max-width: 50%;
     }
 
     .gamesGrid article:nth-of-type(2n) {
