@@ -1,16 +1,19 @@
 import React from "react";
 import Image from "next/image";
 
-export default function Game({ children }) {
+export default function Game({ name, desc, img, link }) {
+  console.log(img);
+  let linkPresent;
+  if (link) {
+    linkPresent = <button className="buttonSplash ">Take me to site</button>;
+  }
   return (
     <article>
-      <Image alt="" src={"https://picsum.photos/" + 1920 + "/" + 600} width="1000" height="600"></Image>
+      <Image alt="" src={img} width="1920" height="700"></Image>
       <div>
-        <h4> Game {children}</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!</p>
-        <button className="buttonSplash ">Take me to site</button>
+        <h4> {name}</h4>
+        <p>{desc}</p>
+        {linkPresent}
       </div>
     </article>
   );
