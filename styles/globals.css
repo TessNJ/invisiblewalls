@@ -377,7 +377,6 @@ article {
 
 .gamesGrid {
   display: grid;
-  /* padding: 15vw 4vw; */
 }
 
 .gamesGrid article {
@@ -411,6 +410,20 @@ article {
   background-color: var(--secondary-bg-colour);
   color: var(--main-font-colour);
   /* flex-direction: row-reverse; */
+}
+.employeeGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+.employeeGrid article {
+  padding: 4vw 25vw;
+  background-color: var(--main-bg-colour);
+  color: var(--main-font-colour);
+}
+.employeeGrid article:nth-of-type(2n) {
+  background-color: var(--secondary-bg-colour);
+  color: var(--main-font-colour);
 }
 
 @media screen and (min-width: 768px) {

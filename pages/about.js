@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Employee from "../components/Employee";
 
 export default function About({ data }) {
   console.log(data);
@@ -12,7 +13,16 @@ export default function About({ data }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>About</h1>
+        <section>
+          <h1>About</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!</p>
+        </section>
+        <section className="employeeGrid">
+          {data.map((e) => (
+            <Employee key={e.id} name={e.name} jobtitle={e.jobtitle} img={e.img}></Employee>
+          ))}
+        </section>
+        <section></section>
       </main>
     </>
   );

@@ -22,8 +22,8 @@ export default function Games({ data }) {
           </div>
         </section>
         <section className="gamesGrid">
-          {data.map((e, i) => (
-            <Game key={i} name={e.name} desc={e.desc} img={e.img} link={e.link} />
+          {data.map((e) => (
+            <Game key={e.id} name={e.name} desc={e.desc} img={e.img} link={e.link} />
           ))}
         </section>
         <section></section>
