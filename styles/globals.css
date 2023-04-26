@@ -168,6 +168,7 @@ footer nav ul {
 }
 .footerLogos a {
   max-width: 40%;
+  height: "auto";
 }
 
 .socialLinks {
@@ -236,16 +237,21 @@ article {
 
 .landingPage_imageArticle {
   width: 100%;
-  padding: 11vw 5vw;
-  position: relative;
-  min-height: 600px;
-  display: grid;
-  grid-template-columns: 30vw 1fr;
-  grid-template-rows: 1fr;
-  gap: 5vw;
+  padding: 11vw 0;
   background: url("../public/334488809_540071724778281_1717384824777940824_n.jpg");
   background-position: center;
   background-size: cover;
+}
+
+.landingPage_imageArticle div {
+  padding: 0 5vw;
+  position: relative;
+  min-height: 500px;
+  display: grid;
+  grid-template-columns: 30vw 1fr;
+  gap: 5vw;
+  width: 100%;
+  backdrop-filter: blur(10px);
 }
 
 .imageAr1 {
@@ -476,13 +482,16 @@ article {
     }
     .landingPage_imageArticle {
       width: 60%;
-      padding: 5%;
+      padding: 4vw 0;
       position: relative;
       height: inherit;
+    }
+    .landingPage_imageArticle div {
       display: grid;
-      grid-template-columns: 15vw 1fr;
-      grid-template-rows: 1fr 15vw;
-      gap: 3vw;
+      grid-template-columns: 20vw 1fr;
+      gap: 2vw;
+      min-height: 600px;
+      padding: 0;
     }
 
     .imageAr1 {
