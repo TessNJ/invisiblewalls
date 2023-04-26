@@ -7,14 +7,14 @@ function Layout({ children }) {
   let logoHeight = "100";
 
   function unfoldMenu(event) {
-    event.target.classList.toggle("active");
+    document.querySelector(".burgerMenu").classList.toggle("active");
     document.querySelector(".navMenu").classList.toggle("hideMenu");
   }
 
   return (
     <>
       <header>
-        <Anchor href={"/"}>
+        <Anchor href={"/"} className={"logoLink"}>
           <Image alt="" src={"/logo.png"} width={logoWidth} height={logoHeight} />
         </Anchor>
         <div className="burgerMenu" onClick={unfoldMenu}>
@@ -25,21 +25,29 @@ function Layout({ children }) {
         <nav className="navMenu hideMenu">
           <ul>
             <li>
-              <Anchor href={"/"}>Home</Anchor>
+              <Anchor toggle={true} href={"/"}>
+                Home
+              </Anchor>
             </li>
             <li>
-              <Anchor href={"/games"}>Games</Anchor>
+              <Anchor toggle={true} href={"/games"}>
+                Games
+              </Anchor>
             </li>
             <li>
-              <Anchor href={"/about"}>About</Anchor>
+              <Anchor toggle={true} href={"/about"}>
+                About
+              </Anchor>
             </li>
             <li>
-              <Anchor className="nav-link" href={"/career"}>
+              <Anchor toggle={true} className="nav-link" href={"/career"}>
                 Career
               </Anchor>
             </li>
             <li>
-              <Anchor href={"/contact"}>Contact</Anchor>
+              <Anchor toggle={true} href={"/contact"}>
+                Contact
+              </Anchor>
             </li>
           </ul>
         </nav>
