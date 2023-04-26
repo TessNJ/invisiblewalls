@@ -2,10 +2,14 @@ import React from "react";
 import Image from "next/image";
 
 export default function Game({ name, desc, img, link }) {
-  console.log(img);
+  // console.log(img);
   let linkPresent;
   if (link) {
-    linkPresent = <button className="buttonSplash ">Take me to site</button>;
+    linkPresent = (
+      <a href={link} target="_blank" className="buttonSplash ">
+        Take me to site
+      </a>
+    );
   }
   return (
     <article>

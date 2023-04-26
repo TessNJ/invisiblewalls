@@ -26,7 +26,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-size: 18px;
+  font-size: 16px;
   background-color: var(--main-bg-colour);
 }
 
@@ -60,6 +60,7 @@ h5 {
 p {
   font-size: 1rem;
   font-family: var(--main-font);
+  font-weight: 300;
 }
 a {
   font-family: var(--main-font);
@@ -84,7 +85,6 @@ header {
   align-items: center;
   padding: 1%;
   flex-wrap: wrap;
-  /* height: 10vw; */
   position: relative;
 }
 
@@ -128,7 +128,7 @@ header path.active {
 }
 
 footer {
-  background-color: var(--main-bg-colour-darker);
+  background-color: var(--main-bg-colour);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -164,8 +164,9 @@ footer nav ul {
 .footerLogos {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
-.footerLogos img {
+.footerLogos a {
   max-width: 40%;
 }
 
@@ -251,24 +252,21 @@ article {
   grid-column: 2;
   align-self: flex-end;
   justify-self: flex-start;
-  /* border-radius: 20%; */
 }
 .imageAr2 {
   grid-column: 2;
   align-self: flex-start;
   justify-self: flex-start;
-  /* border-radius: 20%; */
 }
 .imageAr3 {
   grid-column: 1;
   grid-row: 1;
   align-self: flex-end;
   justify-self: flex-end;
-  /* border-radius: 20%; */
 }
 
 .linksSection {
-  background-color: var(--main-bg-colour-darker);
+  background-color: var(--main-bg-colour);
   padding: 4vw 2vw;
 }
 .linksSection ul {
@@ -353,9 +351,22 @@ article {
 }
 
 .gamesIntro {
-  padding: 15vw 4vw;
-  background-image: url("../public/shapelined-_JBKdviweXI-unsplash.jpg");
+  padding: 11vw 0;
+  background-image: url("../public/caspar-camille-rubin-oI6zrBj3nKw-unsplash.jpg");
   background-size: cover;
+  background-position: center;
+  color: var(--main-font-colour);
+}
+.gamesIntro div {
+  padding: 2vw 4vw;
+  backdrop-filter: blur(10px);
+}
+.gamesIntro p {
+  font-weight: 600;
+}
+.gamesIntro h1 {
+  color: var(--accent-colour);
+  font-weight: 700;
 }
 
 .gamesGrid {

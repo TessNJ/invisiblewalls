@@ -4,7 +4,7 @@ import Game from "../components/Game";
 import { gamesdb } from "../modules/gamesdb";
 
 export default function Games({ data }) {
-  console.log(data);
+  // console.log(data);
   const loopTime = 4;
   return (
     <>
@@ -16,8 +16,10 @@ export default function Games({ data }) {
       </Head>
       <main>
         <section className="gamesIntro">
-          <h1>Games</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!</p>
+          <div>
+            <h1>Games</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!</p>
+          </div>
         </section>
         <section className="gamesGrid">
           {data.map((e, i) => (
