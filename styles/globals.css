@@ -444,19 +444,25 @@ article {
 }
 .aboutHistory h2 {
   color: var(--accent-colour);
+  text-align: center;
 }
 
 .aboutHistory h4 {
   color: var(--accent-colour-darker);
 }
-
 .employeeGrid {
+  padding: 6vw 15vw;
+}
+.employeeGrid div {
   display: grid;
   /* grid-template-columns: repeat(auto-fill, 250px); */
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   justify-content: space-evenly;
   /* gap: 3vw; */
-  padding: 6vw 15vw;
+}
+.employeeGrid h2 {
+  color: var(--accent-colour);
+  text-align: center;
 }
 .container {
   color: var(--main-font-colour);
@@ -630,9 +636,11 @@ article {
     }
 
     .container {
-      /* padding: 4vw 1vw; */
       margin: 4vw 1vw;
       padding: 0;
+    }
+    .employeeGrid {
+      padding: 6vw 5vw;
     }
   }
 }

@@ -110,9 +110,12 @@ export default function About({ data }) {
           </article>
         </section>
         <section className="employeeGrid">
-          {data.map((e) => (
-            <Employee key={e.id} name={e.name} jobtitle={e.jobtitle} img={e.img}></Employee>
-          ))}
+          <h2>The Team</h2>
+          <div>
+            {data.map((e) => (
+              <Employee key={e.id} name={e.name} jobtitle={e.jobtitle} img={e.img}></Employee>
+            ))}
+          </div>
         </section>
       </main>
     </>
