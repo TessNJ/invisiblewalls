@@ -2,7 +2,7 @@
 
 :root {
   --main-bg-colour: #222222;
-  --main-bg-colour-darker: rgb(0, 0, 0);
+  --main-bg-colour-darker: rgb(24, 24, 24);
   --secondary-bg-colour: #2d2d2d;
   --secondary-bg-colour-lighter: #5f5f5f;
   --main-font-colour: #ffffff;
@@ -265,7 +265,7 @@ article {
   grid-template-columns: 30vw 1fr;
   gap: 5vw;
   width: 100%;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
 }
 
 .imageAr1 {
@@ -370,23 +370,15 @@ article {
   transform: translate(5px, 5px);
 }
 
-.gamesIntro {
-  padding: 11vw 0;
-  background-image: url("../public/caspar-camille-rubin-oI6zrBj3nKw-unsplash.jpg");
+.gamesIntro,
+.aboutIntro {
+  padding: 10vw 0;
   background-size: cover;
   background-position: center;
   color: var(--main-font-colour);
 }
-.gamesIntro div {
-  padding: 2vw 4vw;
-  backdrop-filter: blur(10px);
-}
-.gamesIntro p {
-  font-weight: 600;
-}
-.gamesIntro h1 {
-  color: var(--accent-colour);
-  font-weight: 700;
+.gamesIntro {
+  background-image: url("../public/caspar-camille-rubin-oI6zrBj3nKw-unsplash.jpg");
 }
 
 .gamesGrid {
@@ -425,6 +417,39 @@ article {
   color: var(--main-font-colour);
   /* flex-direction: row-reverse; */
 }
+
+.gamesIntro div,
+.aboutIntro div {
+  padding: 2vw 4vw;
+  backdrop-filter: blur(10px);
+}
+.gamesIntro p,
+.aboutIntro p {
+  font-weight: 600;
+}
+.gamesIntro h1,
+.aboutIntro h1 {
+  color: var(--accent-colour);
+  font-weight: 700;
+}
+.aboutIntro {
+  background-image: url("../public/aboutbg2.jpg");
+}
+
+.aboutHistory {
+  background-color: var(--main-bg-colour-darker);
+  /* display: ; */
+  color: var(--main-font-colour);
+  padding: 4vw 4vw;
+}
+.aboutHistory h2 {
+  color: var(--accent-colour);
+}
+
+.aboutHistory h4 {
+  color: var(--accent-colour-darker);
+}
+
 .employeeGrid {
   display: grid;
   /* grid-template-columns: repeat(auto-fill, 250px); */
@@ -448,6 +473,7 @@ article {
 @media screen and (min-width: 768px) {
   .hideMenu {
     visibility: visible;
+    opacity: 1;
   }
   .burgerMenu {
     display: none;
@@ -476,6 +502,8 @@ article {
   header nav {
     position: static;
     background-color: var(--dark-colour);
+    visibility: visible;
+    opacity: 1;
   }
   main {
     margin-left: 120px;
