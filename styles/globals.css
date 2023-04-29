@@ -444,7 +444,7 @@ article {
   color: var(--main-font-colour);
   padding: 4vw 4vw;
   display: grid;
-  grid-template-columns: 40px 1fr;
+  grid-template-columns: 20px 1fr;
 }
 .aboutHistory article {
   grid-column: 2;
@@ -455,7 +455,7 @@ article {
   padding: 2vw;
   position: absolute;
   top: 0;
-  left: -55px;
+  left: -45px;
 }
 .aboutHistory hr {
   justify-self: center;
@@ -570,8 +570,11 @@ article {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  .aboutHistory {
+    grid-template-columns: 10px 1fr;
+  }
   .aboutHistory article::before {
-    left: -65px;
+    left: -50px;
   }
 
   @media screen and (min-width: 1101px) {
@@ -665,8 +668,11 @@ article {
     .employeeGrid {
       padding: 6vw 5vw;
     }
+    .aboutHistory {
+      grid-template-columns: 3% 1fr;
+    }
     .aboutHistory article::before {
-      left: -5%;
+      left: -5.5%;
     }
     .aboutHistory article {
       padding: 1.5vw;
