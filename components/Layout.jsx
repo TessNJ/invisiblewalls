@@ -71,8 +71,8 @@ function Layout({ children }) {
         </div>
         <div className="addressFooter">
           <p>
-            Lorem ipsum adipiscing elit. <br />
-            Pellentesque fringilla suscipit massa. <br /> Proin vitae condimentum lectus.
+            Frederiksberggade 28, 2.th,
+            <br /> 1459 Copenhagen <br /> Denmark
           </p>
         </div>
         <nav className="footerLinks">
@@ -81,7 +81,7 @@ function Layout({ children }) {
               <Anchor href={"/"}>Home</Anchor>
             </li>
             <li>
-              <Anchor href={"/"}>Home</Anchor>
+              <Anchor href={"mailto: info@invisiblewalls.co"}>info@invisiblewalls.co</Anchor>
             </li>
             <li>
               <Anchor href={"/"}>Home</Anchor>

@@ -40,30 +40,38 @@ img {
 
 h1 {
   font-size: 1.8rem;
-  font-family: var(--main-font);
-  font-weight: 700;
+  font-family: var(--header-font);
+  font-weight: 400;
+  color: var(--accent-colour);
 }
 
 h2 {
+  font-weight: 400;
   font-size: 1.6rem;
-  font-family: var(--main-font);
+  font-family: var(--header-font);
+  color: var(--accent-colour);
 }
 h3 {
+  font-weight: 400;
   font-size: 1.42rem;
-  font-family: var(--main-font);
+  font-family: var(--header-font);
+  color: var(--accent-colour-darker);
 }
 h4 {
+  color: var(--accent-colour);
   font-size: 1.27rem;
   font-family: var(--main-font);
 }
 h5 {
   font-size: 1.125rem;
   font-family: var(--main-font);
+  color: var(--accent-colour);
 }
 p {
   font-size: 1rem;
   font-family: var(--main-font);
   font-weight: 300;
+  color: var(--main-font-colour);
 }
 a {
   font-family: var(--main-font);
@@ -235,8 +243,7 @@ article {
   row-gap: 1vw;
 }
 
-.landingPage_introArticle p,
-.landingPage_introArticle h1 {
+.landingPage_introArticle p {
   color: var(--main-font-colour);
 }
 
@@ -348,15 +355,9 @@ article {
   flex-direction: column;
   height: 300px;
 }
-.infoArticle p,
-.infoArticle h2,
-.infoArticle h3 {
-  color: var(--main-font-colour);
-}
 
 .buttonGallery {
   background-color: var(--accent-colour);
-  color: var(--light-colour);
   border: none;
   padding: 2% 7%;
   font-weight: 600;
@@ -373,7 +374,8 @@ article {
 }
 
 .gamesIntro,
-.aboutIntro {
+.aboutIntro,
+.contactIntro {
   padding: 10vw 0;
   background-size: cover;
   background-position: center;
@@ -421,18 +423,20 @@ article {
 }
 
 .gamesIntro div,
-.aboutIntro div {
+.aboutIntro div,
+.contactIntro div {
   padding: 2vw 4vw;
   backdrop-filter: blur(10px);
 }
 .gamesIntro p,
-.aboutIntro p {
+.aboutIntro p,
+.contactIntro p {
   font-weight: 600;
 }
 .gamesIntro h1,
-.aboutIntro h1 {
+.aboutIntro h1,
+.contactIntro h1 {
   color: var(--accent-colour);
-  font-weight: 700;
   text-shadow: var(--accent-colour-darker) 1px 1px 1px;
 }
 .aboutIntro {
@@ -494,6 +498,68 @@ article {
   width: 100%;
   aspect-ratio: 1/1;
   display: block;
+}
+.contactIntro {
+  background-image: url("../public/luca-bravo-9l_326FISzk-unsplash.jpg");
+}
+.contactSection {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+}
+.contactInfo {
+  padding: 4vw;
+  background-color: var(--main-bg-colour-darker);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contactInfo .infoDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contactInfo a {
+  color: var(--accent-colour);
+  font-weight: 500;
+}
+.contactInfo a:hover,
+.contactInfo span:hover {
+  color: var(--accent-colour-darker);
+  text-decoration: underline;
+}
+.contactForm {
+  padding: 4vw;
+  background-color: var(--secondary-bg-colour);
+}
+.contactForm form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 1vh;
+  justify-content: space-between;
+}
+.contactForm label {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+  font-family: var(--main-font);
+  color: var(--accent-colour);
+  font-weight: 600;
+}
+.contactForm input {
+  font-family: var(--main-font);
+  background-color: var(--light-colour);
+  border: none;
+}
+
+.contactForm #textBox {
+  width: 100%;
+}
+
+.contactForm label textarea {
+  border: none;
+  background-color: var(--light-colour);
+  font-family: var(--main-font);
+  min-height: 10vh;
 }
 
 @media screen and (min-width: 768px) {
@@ -579,7 +645,7 @@ article {
 
   @media screen and (min-width: 1101px) {
     footer {
-      padding: 5vw 17vw;
+      padding: 3vw 17vw;
       gap: 4vw;
     }
     .footerLogos {
