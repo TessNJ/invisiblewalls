@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Employee from "../components/Employee";
+import HistoryDiv from "../components/HistoryDiv";
 
 export default function About({ data }) {
   console.log(data);
@@ -24,89 +25,60 @@ export default function About({ data }) {
         </section>
         <section className="aboutHistory">
           <h2>Timeline of Invisible Walls</h2>
+          <hr width="1" />
           <article>
             <h4>2015</h4>
-            <div>
-              <h3>Joined Investigate North</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-              </p>
-            </div>
+            <HistoryDiv name="Joined Investigate North">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+            </HistoryDiv>
           </article>
           <article>
             <h4>2017</h4>
-            <div>
-              <h3>Aporia: Beyond the Veil</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-              </p>
-            </div>
-            <div>
-              <h3>Name: Invisible Walls</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-              </p>
-            </div>
+            <HistoryDiv name="Aporia: Beyond the Veil">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+            </HistoryDiv>
+            <HistoryDiv name="Name: Invisible Walls">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+            </HistoryDiv>
           </article>
           <article>
             <h4>2018</h4>
-            <div>
-              <h3>Project: Cainwood</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-              </p>
-            </div>
+            <HistoryDiv name="Project: Cainwood">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+            </HistoryDiv>
           </article>
           <article>
             <h4>2019</h4>
-            <div>
-              <h3>First Class Trouble alpha</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-              </p>
-            </div>
+            <HistoryDiv name="First Class Trouble alpha">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+            </HistoryDiv>
           </article>
           <article>
             <h4>2020</h4>
-            <div>
-              <h3>Novafos VR / Snapchat / Mobile game</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-              </p>
-            </div>
+            <HistoryDiv name="Novafos VR / Snapchat / Mobile game">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+            </HistoryDiv>
           </article>
           <article>
             <h4>2021</h4>
-            <div>
-              <h3>April: First Class Trouble EA</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-              </p>
-            </div>
-            <div>
-              <h3>November: First Class Trouble Release</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-              </p>
-            </div>
+            <HistoryDiv name="April: First Class Trouble EA">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+            </HistoryDiv>
+            <HistoryDiv name="November: First Class Trouble Release">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+            </HistoryDiv>
           </article>
           <article>
             <h4>2022</h4>
-            <div>
-              <h3>John Dillermand</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-              </p>
-            </div>
+            <HistoryDiv name="John Dillermand">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+            </HistoryDiv>
           </article>
           <article>
             <h4>2023</h4>
-            <div>
-              <h3>Next title in progress</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-              </p>
-            </div>
+            <HistoryDiv name="Next title in progress">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+            </HistoryDiv>
           </article>
         </section>
         <section className="employeeGrid">
