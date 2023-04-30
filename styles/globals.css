@@ -375,7 +375,8 @@ article {
 
 .gamesIntro,
 .aboutIntro,
-.contactIntro {
+.contactIntro,
+.careerIntro {
   padding: 10vw 0;
   background-size: cover;
   background-position: center;
@@ -424,18 +425,21 @@ article {
 
 .gamesIntro div,
 .aboutIntro div,
-.contactIntro div {
+.contactIntro div,
+.careerIntro div {
   padding: 2vw 4vw;
   backdrop-filter: blur(10px);
 }
 .gamesIntro p,
 .aboutIntro p,
-.contactIntro p {
+.contactIntro p,
+.careerIntro p {
   font-weight: 600;
 }
 .gamesIntro h1,
 .aboutIntro h1,
-.contactIntro h1 {
+.contactIntro h1,
+.careerIntro h1 {
   color: var(--accent-colour);
   text-shadow: var(--accent-colour-darker) 1px 1px 1px;
 }
@@ -560,6 +564,9 @@ article {
   background-color: var(--light-colour);
   font-family: var(--main-font);
   min-height: 10vh;
+}
+.careerIntro {
+  background-image: url("../public/luca-bravo-9l_326FISzk-unsplash.jpg");
 }
 
 @media screen and (min-width: 768px) {
