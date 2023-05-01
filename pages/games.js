@@ -10,7 +10,8 @@ export default function Games({ data }) {
     <>
       <Head>
         <title>Games</title>
-        <meta name="description" content="Contact Information" />
+        <meta name="description" content="Game gallery" />
+        <meta name="robots" content="noindex,nofollow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

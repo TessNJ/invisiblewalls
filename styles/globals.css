@@ -568,6 +568,49 @@ article {
 .careerIntro {
   background-image: url("../public/luca-bravo-9l_326FISzk-unsplash.jpg");
 }
+.jobPost li {
+  text-align: left;
+  color: var(--main-font-colour);
+}
+.jobIntro {
+  background-color: var(--main-bg-colour-darker);
+}
+.jobIntro div {
+  padding: 4vw;
+}
+.jobDetails {
+  display: flex;
+}
+.jobDetails .imageArticle {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.jobDetails p,
+.jobDetails ul {
+  padding-bottom: 1vw;
+}
+.applyButtonDiv {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+}
+.applyButton {
+  border: none;
+  background-color: var(--accent-colour);
+  color: var(--main-font-colour);
+  padding: 1vw 2vw;
+}
+.applyButton:hover {
+  background-color: var(--accent-colour-darker);
+  font-style: italic;
+}
+.applyInvalid {
+  background-color: var(--secondary-bg-colour-lighter);
+  padding: 1vw 2vw;
+  font-style: italic;
+  font-size: 0.8rem;
+}
 
 @media screen and (min-width: 768px) {
   .hideMenu {
