@@ -511,7 +511,7 @@ article {
   grid-template-columns: 1fr;
 }
 .contactInfo {
-  padding: 4vw;
+  padding: 10vw 4vw;
   background-color: var(--main-bg-colour-darker);
   display: flex;
   flex-direction: column;
@@ -714,6 +714,9 @@ textarea::placeholder {
   }
   .aboutHistory article::before {
     left: -50px;
+  }
+  .contactInfo {
+    padding: 6vw 4vw;
   }
 
   @media screen and (min-width: 1101px) {
