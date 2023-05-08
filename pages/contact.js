@@ -47,17 +47,19 @@ export default function Contact() {
               </p>
             </div>
             <form>
-              <label>
-                Email
-                <input typeof="email"></input>
-              </label>
-              <label>
-                Name
-                <input typeof="text"></input>
-              </label>
+              <div>
+                <label>
+                  Email
+                  <input placeholder="Your email..." typeof="email"></input>
+                </label>
+                <label>
+                  Name
+                  <input placeholder="Your name..." typeof="text"></input>
+                </label>
+              </div>
               <label id="textBox">
-                Your Message
-                <textarea></textarea>
+                Message
+                <textarea placeholder="Your Message ..."></textarea>
               </label>
               <button
                 onClick={(e) => {

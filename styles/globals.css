@@ -508,7 +508,7 @@ article {
 }
 .contactSection {
   display: grid;
-  grid-template-columns: 40% 1fr;
+  grid-template-columns: 1fr;
 }
 .contactInfo {
   padding: 4vw;
@@ -536,9 +536,13 @@ article {
 }
 .contactForm form {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   row-gap: 1vh;
+  justify-content: space-between;
+}
+.contactForm form div {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 .contactForm label {
@@ -553,6 +557,11 @@ article {
   font-family: var(--main-font);
   background-color: var(--light-colour);
   border: none;
+  padding: 10px;
+  font-weight: 400;
+}
+input::placeholder {
+  font-style: italic;
 }
 
 .contactForm #textBox {
@@ -563,8 +572,22 @@ article {
   border: none;
   background-color: var(--light-colour);
   font-family: var(--main-font);
-  min-height: 10vh;
+  min-height: 100px;
+  padding: 10px;
+  font-weight: 400;
 }
+textarea::placeholder {
+  font-style: italic;
+}
+.contactForm button {
+  background-color: var(--accent-colour);
+  border: none;
+  padding: 10px 30px;
+  font-weight: 800;
+  color: var(--dark-colour);
+  align-self: flex-end;
+}
+
 .careerIntro {
   background-image: url("../public/luca-bravo-9l_326FISzk-unsplash.jpg");
 }
@@ -792,6 +815,9 @@ article {
     }
     .aboutHistory article {
       padding: 1.5vw;
+    }
+    .contactSection {
+      grid-template-columns: 40% 1fr;
     }
   }
 }
