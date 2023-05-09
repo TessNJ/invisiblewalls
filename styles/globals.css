@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rakkas&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap");
 
 :root {
   --main-bg-colour: #222222;
@@ -13,7 +14,7 @@
   --accent-colour: #ff412c;
   --accent-colour-darker: #d42815;
   --main-font: "Nunito Sans", sans-serif;
-  --header-font: "Rakkas", cursive;
+  --header-font: "Bevan", cursive;
 }
 
 * {
@@ -201,10 +202,6 @@ footer nav ul {
   width: 100%;
   padding: 2vw;
   justify-content: space-around;
-}
-
-.socialLinks img {
-  max-width: 10%;
 }
 
 .addressFooter {

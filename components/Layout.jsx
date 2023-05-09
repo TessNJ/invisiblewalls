@@ -63,11 +63,21 @@ function Layout({ children }) {
           </Anchor>
         </div>
         <div className="socialLinks">
-          <Image className="iconHover" alt="" src={"https://picsum.photos/" + 50 + "/" + 50} width="50" height="50" />
-          <Image className="iconHover" alt="" src={"https://picsum.photos/" + 50 + "/" + 50} width="50" height="50" />
-          <Image className="iconHover" alt="" src={"https://picsum.photos/" + 50 + "/" + 50} width="50" height="50" />
-          <Image className="iconHover" alt="" src={"https://picsum.photos/" + 50 + "/" + 50} width="50" height="50" />
-          <Image className="iconHover" alt="" src={"https://picsum.photos/" + 50 + "/" + 50} width="50" height="50" />
+          <Anchor href="http://discord.gg/npeDKJh">
+            <Image alt="" src="/discordicon.webp" width="50" height="50" />
+          </Anchor>
+          <Anchor href="https://www.facebook.com/invisiblewallsstudio">
+            <Image alt="" src="/fbicon.webp" width="50" height="50" />
+          </Anchor>
+          <Anchor href="https://www.youtube.com/channel/UCAqeOUBMp_aX3tVZm1i_njQ">
+            <Image alt="" src="/youtubeicon.webp" width="50" height="50" />
+          </Anchor>
+          <Anchor href="https://twitter.com/invisible0walls">
+            <Image alt="" src="/twittericon.webp" width="50" height="50" />
+          </Anchor>
+          <Anchor href="https://www.instagram.com/invisible_walls/">
+            <Image alt="" src="/instaicon.webp" width="50" height="50" />
+          </Anchor>
         </div>
         <div className="addressFooter">
           <p>
