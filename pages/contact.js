@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import ContactForm from "../components/ContactForm";
 
 export default function Contact() {
   return (
@@ -39,7 +40,7 @@ export default function Contact() {
               </p>
             </div>
           </article>
-          <article className="contactForm">
+          {/* <article className="contactForm">
             <div>
               <h3>Lorem</h3>
               <p>
@@ -69,7 +70,8 @@ export default function Contact() {
                 Send
               </button>
             </form>
-          </article>
+          </article> */}
+          <ContactForm />
         </section>
       </main>
     </>
