@@ -165,6 +165,8 @@ footer {
 
 footer nav li {
   list-style: none;
+  color: var(--accent-colour);
+  font-weight: 500;
 }
 footer nav a {
   font-size: 1rem;
@@ -249,10 +251,11 @@ article {
   background-color: var(--accent-colour);
   color: var(--dark-colour);
   border: none;
-  padding: 2% 7%;
-  font-weight: 900;
+  padding: 2% 5%;
+  font-weight: 800;
   letter-spacing: 0.3vw;
   /* border-radius: 0.3vw; */
+  font-size: 0.8rem;
 }
 
 .landingPage_imageArticle {
@@ -332,7 +335,7 @@ article {
   margin: 0;
   padding: 0;
 }
-.galleryArticle div {
+.galleryArticle a {
   width: 100%;
   aspect-ratio: 1/1;
   overflow: hidden;
@@ -356,13 +359,16 @@ article {
 .buttonGallery {
   background-color: var(--accent-colour);
   border: none;
-  padding: 2% 7%;
-  font-weight: 600;
+  padding: 2% 5%;
   letter-spacing: 0.3vw;
   /* border-radius: 0.3vw; */
   transition: 0.3s;
   animation-timing-function: ease-in;
   cursor: pointer;
+  color: var(--dark-colour);
+  align-self: flex-end;
+  font-weight: 700;
+  font-size: 0.8rem;
 }
 
 .buttonGallery:hover {
@@ -583,10 +589,11 @@ textarea::placeholder {
   font-weight: 800;
   color: var(--dark-colour);
   align-self: flex-end;
+  cursor: pointer;
 }
 
 .careerIntro {
-  background-image: url("../public/luca-bravo-9l_326FISzk-unsplash.jpg");
+  background-image: url("../public/andrew-neel-cckf4TsHAuw-unsplash.jpg");
 }
 .jobPost li {
   text-align: left;
@@ -667,6 +674,9 @@ textarea::placeholder {
     visibility: visible;
     opacity: 1;
   }
+  header img {
+    max-width: 100%;
+  }
   main {
     margin-left: 120px;
   }
@@ -695,7 +705,7 @@ textarea::placeholder {
     opacity: 1;
   }
   .galleryArticle img {
-    filter: grayscale(1);
+    filter: grayscale(1) blur(2px);
   }
 
   .text {
@@ -742,7 +752,7 @@ textarea::placeholder {
       order: 0;
       gap: 0;
     }
-    .galleryArticle div {
+    .galleryArticle a {
       height: 100%;
     }
     .galleryArticle img {
@@ -852,7 +862,7 @@ textarea::placeholder {
 }
 .imgHover:hover {
   transform: scale3d(1.1, 1.1, 1.1);
-  filter: grayscale(0);
+  filter: grayscale(0) blur(0);
 }
 
 @keyframes popout {

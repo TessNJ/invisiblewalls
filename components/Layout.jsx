@@ -87,14 +87,12 @@ function Layout({ children }) {
         </div>
         <nav className="footerLinks">
           <ul>
-            <li>
-              <Anchor href={"/"}>Home</Anchor>
-            </li>
+            <li>©2023 by Nerdifying.dk (collab: Invisible Walls)</li>
             <li>
               <Anchor href={"mailto: info@invisiblewalls.co"}>info@invisiblewalls.co</Anchor>
             </li>
             <li>
-              <Anchor href={"/"}>Home</Anchor>
+              <Anchor href={"/privacypolicy"}>Privacy Policy</Anchor>
             </li>
           </ul>
         </nav>

@@ -27,9 +27,9 @@ export default function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla suscipit massa ac ullamcorper. Proin vitae condimentum lectus. Pellentesque sollicitudin, diam ac ultricies tincidunt, sapien nisi pulvinar lacus, ac
                 auctor urna felis non dolor. Pellentesque consequat lobortis interdum.
               </p>
-              <button className="buttonSplash iconHover" onClick={(event) => event.preventDefault()}>
+              <Anchor href="/about" className="buttonSplash iconHover">
                 Read More
-              </button>
+              </Anchor>
             </div>
           </article>
           <article className="landingPage_imageArticle">
@@ -43,45 +43,68 @@ export default function Home() {
         <section className="linksSection">
           <ul>
             <li>
-              <Anchor href="#">Lorem Ipsum</Anchor>
+              <Anchor href="http://discord.gg/npeDKJh">
+                <Image alt="" src="/discordicon.webp" width="50" height="50" />
+              </Anchor>
             </li>
             <li>
-              <Anchor href="#">Lorem Ipsum</Anchor>
+              <Anchor href="https://www.facebook.com/invisiblewallsstudio">
+                <Image alt="" src="/fbicon.webp" width="50" height="50" />
+              </Anchor>
             </li>
             <li>
-              <Anchor href="#">Lorem Ipsum</Anchor>
+              <Anchor href="https://www.youtube.com/channel/UCAqeOUBMp_aX3tVZm1i_njQ">
+                <Image alt="" src="/youtubeicon.webp" width="50" height="50" />
+              </Anchor>
+            </li>
+            <li>
+              <Anchor href="https://twitter.com/invisible0walls">
+                <Image alt="" src="/twittericon.webp" width="50" height="50" />
+              </Anchor>
+            </li>
+            <li>
+              <Anchor href="https://www.instagram.com/invisible_walls/">
+                <Image alt="" src="/instaicon.webp" width="50" height="50" />
+              </Anchor>
             </li>
           </ul>
         </section>
         <section className="gallerySection">
           <article className="galleryArticle">
-            <div>
-              <Image className="imgHover" alt="" src={"https://picsum.photos/" + 600} width="600" height="600"></Image>
-            </div>
-            <div>
-              <Image className="imgHover" alt="" src={"https://picsum.photos/" + 600} width="600" height="600"></Image>
-            </div>
-            <div>
-              <Image className="imgHover" alt="" src={"https://picsum.photos/" + 600} width="600" height="600"></Image>
-            </div>
-            <div>
-              <Image className="imgHover" alt="" src={"https://picsum.photos/" + 600} width="600" height="600"></Image>
-            </div>
+            <Anchor href="/games">
+              <Image className="imgHover" alt="" src={"/caspar-camille-rubin-oI6zrBj3nKw-unsplash.jpg"} width="800" height="800"></Image>
+            </Anchor>
+            <Anchor href="/about">
+              <Image className="imgHover" alt="" src={"/aboutbg.jpg"} width="800" height="800"></Image>
+            </Anchor>
+            <Anchor href="/career">
+              <Image className="imgHover" alt="" src={"/andrew-neel-cckf4TsHAuw-unsplash.jpg"} width="800" height="800"></Image>
+            </Anchor>
+            <Anchor href="/contact">
+              <Image className="imgHover" alt="" src={"/luca-bravo-9l_326FISzk-unsplash.jpg"} width="800" height="800"></Image>
+            </Anchor>
           </article>
           <article className="infoArticle">
             <div>
-              <h2>Hi</h2>
+              <h2>Our world</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla suscipit massa ac ullamcorper. Proin vitae condimentum lectus. Pellentesque sollicitudin, diam ac ultricies tincidunt, sapien nisi pulvinar lacus, ac
+                auctor urna felis non dolor. Pellentesque consequat lobortis interdum. Curabitur vel consectetur metus. Nullam lobortis purus sit amet hendrerit ullamcorper. Praesent lacinia lectus magna, sit amet ultrices odio interdum eu.
+              </p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla suscipit massa ac ullamcorper. Proin vitae condimentum lectus. Pellentesque sollicitudin, diam ac ultricies tincidunt, sapien nisi pulvinar lacus, ac
                 auctor urna felis non dolor. Pellentesque consequat lobortis interdum. Curabitur vel consectetur metus. Nullam lobortis purus sit amet hendrerit ullamcorper. Praesent lacinia lectus magna, sit amet ultrices odio interdum eu.
               </p>
             </div>
             <div className="infoLinks">
-              <h3>Hi</h3>
-              <button className="buttonGallery">Games</button>
-              <button className="buttonGallery">About</button>
-              <button className="buttonGallery">Career</button>
-              <button className="buttonGallery">Contact</button>
+              <h3>Your future in game development</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla suscipit massa ac ullamcorper. Proin vitae condimentum lectus. Pellentesque sollicitudin, diam ac ultricies tincidunt, sapien nisi pulvinar lacus, ac
+                auctor urna felis non dolor. Pellentesque consequat lobortis interdum. Curabitur vel consectetur metus. Nullam lobortis purus sit amet hendrerit ullamcorper. Praesent lacinia lectus magna, sit amet ultrices odio interdum eu.
+              </p>
+              <Anchor href="/career" className="buttonGallery">
+                Join Us!
+              </Anchor>
             </div>
           </article>
         </section>
