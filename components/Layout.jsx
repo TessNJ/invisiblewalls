@@ -64,19 +64,19 @@ function Layout({ children }) {
         </div>
         <div className="socialLinks">
           <Anchor href="http://discord.gg/npeDKJh">
-            <Image alt="" src="/discordicon.webp" width="50" height="50" />
+            <Image alt="" src="/discord-mark-white.png" width="50" height="50" />
           </Anchor>
           <Anchor href="https://www.facebook.com/invisiblewallsstudio">
-            <Image alt="" src="/fbicon.webp" width="50" height="50" />
+            <Image alt="" src="/fbicon.png" width="50" height="50" />
           </Anchor>
           <Anchor href="https://www.youtube.com/channel/UCAqeOUBMp_aX3tVZm1i_njQ">
-            <Image alt="" src="/youtubeicon.webp" width="50" height="50" />
+            <Image alt="" src="/youtubeicon.png" width="50" height="50" />
           </Anchor>
           <Anchor href="https://twitter.com/invisible0walls">
-            <Image alt="" src="/twittericon.webp" width="50" height="50" />
+            <Image alt="" src="/twitterlogo.png" width="50" height="50" />
           </Anchor>
           <Anchor href="https://www.instagram.com/invisible_walls/">
-            <Image alt="" src="/instaicon.webp" width="50" height="50" />
+            <Image alt="" src="/instaicon.png" width="50" height="50" />
           </Anchor>
         </div>
         <div className="addressFooter">

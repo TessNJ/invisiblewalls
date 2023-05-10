@@ -318,6 +318,9 @@ article {
   color: var(--accent-colour-darker);
   font-style: italic;
 }
+.linksSection img {
+  filter: var(--secondary-font-colour);
+}
 
 .gallerySection {
   display: grid;
@@ -340,6 +343,9 @@ article {
   aspect-ratio: 1/1;
   overflow: hidden;
   position: relative;
+}
+.galleryArticle a img {
+  height: 100%;
 }
 
 .infoArticle {
