@@ -34,9 +34,9 @@ export default function Home() {
           </article>
           <article className="landingPage_imageArticle">
             <div>
-              <Image className="imageAr1 iconHover" alt="" src={"https://picsum.photos/" + 300} width="300" height="300"></Image>
-              <Image className="imageAr2 iconHover" alt="" src={"https://picsum.photos/" + 175} width="175" height="175"></Image>
-              <Image className="imageAr3 iconHover" alt="" src={"https://picsum.photos/" + 100} width="100" height="100"></Image>
+              <Image className="imageAr1" alt="" src={"https://picsum.photos/" + 300} width="300" height="300"></Image>
+              <Image className="imageAr2" alt="" src={"https://picsum.photos/" + 175} width="175" height="175"></Image>
+              <Image className="imageAr3" alt="" src={"https://picsum.photos/" + 100} width="100" height="100"></Image>
             </div>
           </article>
         </section>
@@ -78,10 +78,10 @@ export default function Home() {
             </div>
             <div className="infoLinks">
               <h3>Hi</h3>
-              <button className="buttonGallery">Hi</button>
-              <button className="buttonGallery">Hi</button>
-              <button className="buttonGallery">Hi</button>
-              <button className="buttonGallery">Hi</button>
+              <button className="buttonGallery">Games</button>
+              <button className="buttonGallery">About</button>
+              <button className="buttonGallery">Career</button>
+              <button className="buttonGallery">Contact</button>
             </div>
           </article>
         </section>

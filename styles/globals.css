@@ -694,6 +694,9 @@ textarea::placeholder {
   .container:hover .overlay {
     opacity: 1;
   }
+  .galleryArticle img {
+    filter: grayscale(1);
+  }
 
   .text {
     color: white;
@@ -737,7 +740,16 @@ textarea::placeholder {
     }
     .galleryArticle {
       order: 0;
+      gap: 0;
     }
+    .galleryArticle div {
+      height: 100%;
+    }
+    .galleryArticle img {
+      max-width: max-content;
+      height: 100%;
+    }
+
     .splashSection {
       flex-direction: row;
     }
@@ -756,6 +768,9 @@ textarea::placeholder {
       gap: 2vw;
       min-height: 600px;
       padding: 0;
+    }
+    .infoArticle {
+      padding: 4vw 2vw;
     }
 
     .imageAr1 {
@@ -837,6 +852,7 @@ textarea::placeholder {
 }
 .imgHover:hover {
   transform: scale3d(1.1, 1.1, 1.1);
+  filter: grayscale(0);
 }
 
 @keyframes popout {
