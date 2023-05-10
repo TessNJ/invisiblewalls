@@ -31,7 +31,6 @@ export default function Career({ data }) {
               ))}
             </ul>
           </article>
-          <article></article>
         </section>
       </main>
     </>

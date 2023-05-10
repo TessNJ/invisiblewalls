@@ -601,6 +601,38 @@ textarea::placeholder {
 .careerIntro {
   background-image: url("../public/andrew-neel-cckf4TsHAuw-unsplash.jpg");
 }
+.careerList article {
+  padding: 0;
+  margin: 0;
+}
+.careerList ul {
+  padding: 0;
+  margin: 0;
+}
+.careerList li {
+  list-style: none;
+  padding: 2vw;
+}
+.careerList ul:nth-child(odd) {
+  background-color: var(--secondary-bg-colour);
+}
+.careerList ul:nth-child(even) {
+  background-color: var(--main-bg-colour-darker);
+}
+.jobButton {
+  padding: 0.8vw;
+  background-color: var(--accent-colour);
+  margin: 0 35%;
+  color: var(--dark-colour);
+  font-size: 0.85rem;
+  font-weight: 800;
+  transition: 0.3s;
+  animation-timing-function: ease-in;
+}
+.jobButton:hover {
+  background-color: var(--accent-colour-darker);
+  box-shadow: #828282 3px 3px 5px 1px;
+}
 .jobPost li {
   text-align: left;
   color: var(--main-font-colour);

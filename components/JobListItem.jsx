@@ -6,7 +6,9 @@ export default function JobListItem({ jobtitle, deadline, link }) {
     <li>
       <h4>{jobtitle}</h4>
       <p>{deadline}</p>
-      <Anchor href={"/jobs/" + link}>Read more</Anchor>
+      <Anchor className={"jobButton"} href={"/jobs/" + link}>
+        Read more
+      </Anchor>
       {/* <Anchor href={{ pathname: "jobs/[slug]", query: { slug: link } }}>Read more</Anchor> */}
     </li>
   );
