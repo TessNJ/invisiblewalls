@@ -26,61 +26,63 @@ export default function About({ data }) {
         </section>
         <section className="aboutHistory">
           <h2>Timeline of Invisible Walls</h2>
-          <hr width="1" />
-          <article>
-            <h4>2015</h4>
-            <HistoryDiv name="Joined Investigate North">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-            </HistoryDiv>
-          </article>
-          <article>
-            <h4>2017</h4>
-            <HistoryDiv name="Aporia: Beyond the Veil">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-            </HistoryDiv>
-            <HistoryDiv name="Name: Invisible Walls">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-            </HistoryDiv>
-          </article>
-          <article>
-            <h4>2018</h4>
-            <HistoryDiv name="Project: Cainwood">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-            </HistoryDiv>
-          </article>
-          <article>
-            <h4>2019</h4>
-            <HistoryDiv name="First Class Trouble alpha">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-            </HistoryDiv>
-          </article>
-          <article>
-            <h4>2020</h4>
-            <HistoryDiv name="Novafos VR / Snapchat / Mobile game">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-            </HistoryDiv>
-          </article>
-          <article>
-            <h4>2021</h4>
-            <HistoryDiv name="April: First Class Trouble EA">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-            </HistoryDiv>
-            <HistoryDiv name="November: First Class Trouble Release">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-            </HistoryDiv>
-          </article>
-          <article>
-            <h4>2022</h4>
-            <HistoryDiv name="John Dillermand">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-            </HistoryDiv>
-          </article>
-          <article>
-            <h4>2023</h4>
-            <HistoryDiv name="Next title in progress">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-            </HistoryDiv>
-          </article>
+          <div className="historyList">
+            <hr width="2" className="line" />
+            <article>
+              <h4>2015</h4>
+              <HistoryDiv name="Joined Investigate North">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+              </HistoryDiv>
+            </article>
+            <article>
+              <h4>2017</h4>
+              <HistoryDiv name="Aporia: Beyond the Veil">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+              </HistoryDiv>
+              <HistoryDiv name="Name: Invisible Walls">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+              </HistoryDiv>
+            </article>
+            <article>
+              <h4>2018</h4>
+              <HistoryDiv name="Project: Cainwood">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+              </HistoryDiv>
+            </article>
+            <article>
+              <h4>2019</h4>
+              <HistoryDiv name="First Class Trouble alpha">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+              </HistoryDiv>
+            </article>
+            <article>
+              <h4>2020</h4>
+              <HistoryDiv name="Novafos VR / Snapchat / Mobile game">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+              </HistoryDiv>
+            </article>
+            <article>
+              <h4>2021</h4>
+              <HistoryDiv name="April: First Class Trouble EA">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+              </HistoryDiv>
+              <HistoryDiv name="November: First Class Trouble Release">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+              </HistoryDiv>
+            </article>
+            <article>
+              <h4>2022</h4>
+              <HistoryDiv name="John Dillermand">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+              </HistoryDiv>
+            </article>
+            <article>
+              <h4>2023</h4>
+              <HistoryDiv name="Next title in progress">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+              </HistoryDiv>
+            </article>
+          </div>
         </section>
         <section className="employeeGrid">
           <h2>The Team</h2>

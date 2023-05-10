@@ -460,28 +460,31 @@ article {
   background-color: var(--main-bg-colour-darker);
   color: var(--main-font-colour);
   padding: 4vw 4vw;
-  display: grid;
-  grid-template-columns: 20px 1fr;
+  /* display: grid; */
+  position: relative;
+  /* grid-template-columns: 20px 1fr; */
 }
 .aboutHistory article {
   grid-column: 2;
   position: relative;
+  margin-left: 4vw;
 }
 .aboutHistory article::before {
   content: url("../public/calendar_today_FILL1_wght400_GRAD0_opsz48.png");
   padding: 2vw;
   position: absolute;
   top: 0;
-  left: -45px;
+  left: -11%;
 }
-.aboutHistory hr {
-  justify-self: center;
-  grid-row: 2 / span 8;
+.line {
+  position: absolute;
+  height: 90%;
+  left: 5%;
 }
 .aboutHistory h2 {
   color: var(--accent-colour);
   text-align: center;
-  grid-column: 1 / span 2;
+  /* grid-column: 1 / span 2; */
 }
 
 .aboutHistory h4 {
@@ -766,6 +769,12 @@ textarea::placeholder {
   .aboutHistory {
     grid-template-columns: 10px 1fr;
   }
+  .line {
+    left: 3vw;
+  }
+  .aboutHistory article {
+    margin: 0;
+  }
   .aboutHistory article::before {
     left: -50px;
   }
@@ -879,8 +888,11 @@ textarea::placeholder {
     .aboutHistory {
       grid-template-columns: 3% 1fr;
     }
+    .line {
+      left: 3vw;
+    }
     .aboutHistory article::before {
-      left: -5.5%;
+      left: -4vw;
     }
     .aboutHistory article {
       padding: 1.5vw;
