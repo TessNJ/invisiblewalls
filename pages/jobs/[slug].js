@@ -67,7 +67,7 @@ export default function Job({ data }) {
             <div className="applyButtonDiv">{showButton}</div>
           </article>
           <article className="imageArticle">
-            <Image className="" alt="" src={"https://picsum.photos/" + 600} width="600" height="600" />
+            <Image className="" alt="" src={"/" + jobData.imgname} width="600" height="700" />
           </article>
         </section>
       </main>
