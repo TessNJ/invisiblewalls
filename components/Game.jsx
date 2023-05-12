@@ -1,14 +1,15 @@
 import React from "react";
 import Image from "next/image";
+import Anchor from "./Anchor";
 
 export default function Game({ name, desc, img, link }) {
   // console.log(img);
   let linkPresent;
   if (link) {
     linkPresent = (
-      <a href={link} target="_blank" className="buttonSplash ">
-        Take me to site
-      </a>
+      <Anchor href={link} target className="buttonSplash ">
+        See More
+      </Anchor>
     );
   }
   return (

@@ -34,36 +34,36 @@ export default function Home() {
           </article>
           <article className="landingPage_imageArticle">
             <div>
-              <Image className="imageAr1" alt="" src={"https://picsum.photos/" + 300} width="300" height="300"></Image>
-              <Image className="imageAr2" alt="" src={"https://picsum.photos/" + 175} width="175" height="175"></Image>
-              <Image className="imageAr3" alt="" src={"https://picsum.photos/" + 100} width="100" height="100"></Image>
+              <Image className="imageAr1" alt="" src={"/334488809_540071724778281_1717384824777940824_n.jpg"} width="300" height="300"></Image>
+              <Image className="imageAr2" alt="" src={"/AporiaIMG.jpg"} width="175" height="175"></Image>
+              <Image className="imageAr3" alt="" src={"/FirstClassIMG.jpg"} width="100" height="100"></Image>
             </div>
           </article>
         </section>
         <section className="linksSection">
           <ul>
             <li>
-              <Anchor href="http://discord.gg/npeDKJh">
+              <Anchor href="http://discord.gg/npeDKJh" target>
                 <Image alt="" src="/discord-mark-white.png" width="50" height="50" />
               </Anchor>
             </li>
             <li>
-              <Anchor href="https://www.facebook.com/invisiblewallsstudio">
+              <Anchor href="https://www.facebook.com/invisiblewallsstudio" target>
                 <Image alt="" src="/fbicon.png" width="50" height="50" />
               </Anchor>
             </li>
             <li>
-              <Anchor href="https://www.youtube.com/channel/UCAqeOUBMp_aX3tVZm1i_njQ">
+              <Anchor href="https://www.youtube.com/channel/UCAqeOUBMp_aX3tVZm1i_njQ" target>
                 <Image alt="" src="/youtubeicon.png" width="50" height="50" />
               </Anchor>
             </li>
             <li>
-              <Anchor href="https://twitter.com/invisible0walls">
+              <Anchor href="https://twitter.com/invisible0walls" target>
                 <Image alt="" src="/twitterlogo.png" width="50" height="50" />
               </Anchor>
             </li>
             <li>
-              <Anchor href="https://www.instagram.com/invisible_walls/">
+              <Anchor href="https://www.instagram.com/invisible_walls/" target>
                 <Image alt="" src="/instaicon.png" width="50" height="50" />
               </Anchor>
             </li>

@@ -63,19 +63,19 @@ function Layout({ children }) {
           </Anchor>
         </div>
         <div className="socialLinks">
-          <Anchor href="http://discord.gg/npeDKJh">
+          <Anchor href="http://discord.gg/npeDKJh" target>
             <Image alt="" src="/discord-mark-white.png" width="50" height="50" />
           </Anchor>
-          <Anchor href="https://www.facebook.com/invisiblewallsstudio">
+          <Anchor href="https://www.facebook.com/invisiblewallsstudio" target>
             <Image alt="" src="/fbicon.png" width="50" height="50" />
           </Anchor>
-          <Anchor href="https://www.youtube.com/channel/UCAqeOUBMp_aX3tVZm1i_njQ">
+          <Anchor href="https://www.youtube.com/channel/UCAqeOUBMp_aX3tVZm1i_njQ" target>
             <Image alt="" src="/youtubeicon.png" width="50" height="50" />
           </Anchor>
-          <Anchor href="https://twitter.com/invisible0walls">
+          <Anchor href="https://twitter.com/invisible0walls" target>
             <Image alt="" src="/twitterlogo.png" width="50" height="50" />
           </Anchor>
-          <Anchor href="https://www.instagram.com/invisible_walls/">
+          <Anchor href="https://www.instagram.com/invisible_walls/" target>
             <Image alt="" src="/instaicon.png" width="50" height="50" />
           </Anchor>
         </div>
@@ -92,7 +92,9 @@ function Layout({ children }) {
               <Anchor href={"mailto: info@invisiblewalls.co"}>info@invisiblewalls.co</Anchor>
             </li>
             <li>
-              <Anchor href={"/privacypolicy"}>Privacy Policy</Anchor>
+              <Anchor href={"/privacypolicy"} target>
+                Privacy Policy
+              </Anchor>
             </li>
           </ul>
         </nav>

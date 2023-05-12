@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-export default function Anchor({ children, href, className, id, toggle }) {
+export default function Anchor({ children, href, className, id, toggle, target }) {
   const router = useRouter();
 
   function handleClick(e) {
@@ -9,7 +9,11 @@ export default function Anchor({ children, href, className, id, toggle }) {
       document.querySelector(".navMenu").classList.toggle("hideMenu");
     }
     e.preventDefault();
-    router.push(href);
+    if (target) {
+      window.open(href, "_ blank");
+    } else {
+      router.push(href);
+    }
   }
 
   return (
