@@ -282,19 +282,28 @@ article {
   align-self: flex-end;
   justify-self: flex-start;
   aspect-ratio: 1/1;
+  object-fit: cover;
+  user-select: none;
+  box-shadow: var(--dark-colour) 3px 3px 5px 1px;
 }
 .imageAr2 {
+  user-select: none;
   aspect-ratio: 1/1;
   grid-column: 2;
   align-self: flex-start;
+  object-fit: cover;
   justify-self: flex-start;
+  box-shadow: var(--dark-colour) 3px 3px 5px 1px;
 }
 .imageAr3 {
+  user-select: none;
   aspect-ratio: 1/1;
+  object-fit: cover;
   grid-column: 1;
   grid-row: 1;
   align-self: flex-end;
   justify-self: flex-end;
+  box-shadow: var(--dark-colour) 3px 3px 5px 1px;
 }
 
 .linksSection {

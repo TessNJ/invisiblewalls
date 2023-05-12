@@ -34,7 +34,7 @@ export default function Home() {
           </article>
           <article className="landingPage_imageArticle">
             <div>
-              <Image className="imageAr1" alt="" src={"/334488809_540071724778281_1717384824777940824_n.jpg"} width="300" height="300"></Image>
+              <Image className="imageAr1" alt="" src={"/FirstClassIMG2.jpg"} width="300" height="300"></Image>
               <Image className="imageAr2" alt="" src={"/AporiaIMG.jpg"} width="175" height="175"></Image>
               <Image className="imageAr3" alt="" src={"/FirstClassIMG.jpg"} width="100" height="100"></Image>
             </div>
