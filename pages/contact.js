@@ -10,7 +10,7 @@ export default function Contact() {
         <meta name="description" content="Contact Information" />
         <meta name="robots" content="noindex,nofollow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <main>
         <section className="contactIntro">

@@ -9,7 +9,7 @@ export default function Privacypolicy() {
         <meta name="description" content="Job listings" />
         <meta name="robots" content="noindex,nofollow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <main>
         <section>
