@@ -71,16 +71,16 @@ export default function Home() {
         </section>
         <section className="gallerySection">
           <article className="galleryArticle">
-            <Anchor href="/games">
+            <Anchor href="/games" className="imgContainer">
               <Image className="imgHover" alt="" src={"/caspar-camille-rubin-oI6zrBj3nKw-unsplash.jpg"} width="800" height="800"></Image>
             </Anchor>
-            <Anchor href="/about">
+            <Anchor href="/about" className="imgContainer">
               <Image className="imgHover" alt="" src={"/aboutbg.jpg"} width="800" height="800"></Image>
             </Anchor>
-            <Anchor href="/career">
+            <Anchor href="/career" className="imgContainer">
               <Image className="imgHover" alt="" src={"/andrew-neel-cckf4TsHAuw-unsplash.jpg"} width="800" height="800"></Image>
             </Anchor>
-            <Anchor href="/contact">
+            <Anchor href="/contact" className="imgContainer">
               <Image className="imgHover" alt="" src={"/luca-bravo-9l_326FISzk-unsplash.jpg"} width="800" height="800"></Image>
             </Anchor>
           </article>

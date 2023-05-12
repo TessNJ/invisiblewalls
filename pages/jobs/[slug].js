@@ -4,14 +4,14 @@ import Image from "next/image";
 export default function Job({ data }) {
   const jobData = data[0];
   let showButton;
-  console.log(jobData);
+  // console.log(jobData);
   let currentDate = new Date().toJSON().slice(0, 10);
   if (jobData.deadline > currentDate) {
-    console.log("valid");
+    // console.log("valid");
 
     showButton = <button className="applyButton">Apply Job</button>;
   } else {
-    console.log("invalid");
+    // console.log("invalid");
     showButton = <p className="applyInvalid">Dealine has past</p>;
   }
 

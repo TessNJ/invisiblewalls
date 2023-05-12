@@ -25,7 +25,7 @@ export default function Career({ data }) {
         </section>
         <section className="careerList">
           <article>
-            <ul>
+            <ul className="joblistul">
               {data.map((e) => (
                 <JobListItem key={e.id} jobtitle={e.jobtitle} deadline={e.deadline} link={e.id} slug={e.id}></JobListItem>
               ))}

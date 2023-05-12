@@ -4,7 +4,7 @@ import Employee from "../components/Employee";
 import HistoryDiv from "../components/HistoryDiv";
 
 export default function About({ data }) {
-  console.log(data);
+  // console.log(data);
   return (
     <>
       <Head>
@@ -27,7 +27,7 @@ export default function About({ data }) {
         <section className="aboutHistory">
           <h2>Timeline of Invisible Walls</h2>
           <div className="historyList">
-            <hr width="2" className="line" />
+            {/* <hr width="2" className="line" /> */}
             <article>
               <h4>2015</h4>
               <HistoryDiv name="Joined Investigate North">

@@ -27,7 +27,6 @@ export default function Games({ data }) {
             <Game key={e.id} name={e.name} desc={e.desc} img={e.img} link={e.link} />
           ))}
         </section>
-        <section></section>
       </main>
     </>
   );
