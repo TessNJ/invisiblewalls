@@ -255,7 +255,6 @@ article {
   padding: 2% 5%;
   font-weight: 800;
   letter-spacing: 0.3vw;
-  /* border-radius: 0.3vw; */
   font-size: 0.8rem;
 }
 
@@ -347,7 +346,6 @@ article {
   grid-template-rows: 1fr 1fr;
   align-items: center;
   justify-items: center;
-  /* gap: 0; */
   margin: 0;
   padding: 0;
   position: relative;
@@ -381,7 +379,6 @@ article {
   border: none;
   padding: 2% 5%;
   letter-spacing: 0.3vw;
-  /* border-radius: 0.3vw; */
   transition: 0.3s;
   animation-timing-function: ease-in;
   cursor: pointer;
@@ -430,7 +427,6 @@ article {
   flex-direction: column;
   padding: 8vw 5vw;
 }
-/* .gamesGrid img {  max-width: 70%;} */
 .gamesGrid article h4 {
   color: var(--accent-colour);
   font-weight: 800;
@@ -443,7 +439,6 @@ article {
 .gamesGrid article:nth-of-type(2n) {
   background-color: var(--secondary-bg-colour);
   color: var(--main-font-colour);
-  /* flex-direction: row-reverse; */
 }
 
 .gamesIntro div,
@@ -472,12 +467,10 @@ article {
 }
 
 .aboutHistory {
-  background-color: var(--main-bg-colour-darker);
+  background-color: var(--main-bg-colour);
   color: var(--main-font-colour);
   padding: 4vw 4vw;
-  /* display: grid; */
   position: relative;
-  /* grid-template-columns: 20px 1fr; */
 }
 .aboutHistory article {
   grid-column: 2;
@@ -492,15 +485,9 @@ article {
   left: -11%;
 }
 
-/* .line {
-  position: absolute;
-  height: 90%;
-  left: 5%;
-} */
 .aboutHistory h2 {
   color: var(--accent-colour);
   text-align: center;
-  /* grid-column: 1 / span 2; */
 }
 
 .aboutHistory h4 {
@@ -508,13 +495,12 @@ article {
 }
 .employeeGrid {
   padding: 6vw 15vw;
+  background-color: var(--main-bg-colour-darker);
 }
 .employeeGrid div {
   display: grid;
-  /* grid-template-columns: repeat(auto-fill, 250px); */
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   justify-content: space-evenly;
-  /* gap: 3vw; */
 }
 .employeeGrid h2 {
   color: var(--accent-colour);
@@ -706,6 +692,10 @@ textarea::placeholder {
   font-style: italic;
   font-size: 0.8rem;
 }
+.privacyPolicy {
+  background-color: var(--main-bg-colour-darker);
+  padding: 10% 25%;
+}
 
 @media screen and (min-width: 768px) {
   .hideMenu {
@@ -753,7 +743,6 @@ textarea::placeholder {
   }
   .employeeGrid {
     padding: 6vw 10vw;
-    /* gap: 5vw; */
   }
   .container {
     margin: 4vw 2vw;
@@ -780,7 +769,6 @@ textarea::placeholder {
     top: 50%;
     left: 30%;
     right: 30%;
-    /* bottom: 0; */
     width: 40%;
     margin: auto;
     height: 20px;
@@ -812,9 +800,7 @@ textarea::placeholder {
   .aboutHistory {
     grid-template-columns: 10px 1fr;
   }
-  /* .line {
-    left: 3vw;
-  } */
+
   .aboutHistory article {
     margin: 0;
   }
@@ -883,20 +869,17 @@ textarea::placeholder {
       grid-column: 2;
       align-self: flex-end;
       justify-self: flex-start;
-      /* border-radius: 20%; */
     }
     .imageAr2 {
       grid-column: 2;
       align-self: flex-start;
       justify-self: flex-start;
-      /* border-radius: 20%; */
     }
     .imageAr3 {
       grid-column: 1;
       grid-row: 1;
       align-self: flex-end;
       justify-self: flex-end;
-      /* border-radius: 20%; */
     }
 
     .gamesGrid {
