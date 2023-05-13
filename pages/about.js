@@ -30,28 +30,32 @@ export default function About({ data }) {
             <article>
               <h4>2015</h4>
               <HistoryDiv name="Joined Investigate North">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+                In 2015 a small group of developers joined the company `Investigate North`, who worked with content production and game development. Here they helped with the development on the companies current project as well as looking to start
+                their own, known now as `Aporia: Beyond the Veil`
               </HistoryDiv>
             </article>
             <article>
               <h4>2017</h4>
               <HistoryDiv name="Aporia: Beyond the Veil">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+                After years of defining and developing the project, the game was release to the public in 2017. This singleplayer game focuses is played as a visual experience, and is very linar. Prior to this, beta and alpha tesing was conducted
+                through the years, before the full release of the game.
               </HistoryDiv>
               <HistoryDiv name="Name: Invisible Walls">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+                Along with the game`s release, the team revealed the name of their newly formed independent company, Invisible Walls, as they are known today. This seperation for the company Investigate North, meant full control and focus on their
+                next project.
               </HistoryDiv>
             </article>
             <article>
               <h4>2018</h4>
               <HistoryDiv name="Project: Cainwood">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+                In 2018 a new project was tease, known then internally as `Project: Cainwood`, although not much was known at the time. It was however clear, that this would be a bigger game than their previous, as it was revealed to be a multiplayer
+                survival game, rather than another singleplayer experience.
               </HistoryDiv>
             </article>
             <article>
               <h4>2019</h4>
               <HistoryDiv name="First Class Trouble alpha">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+                In 2019 the game previously known as `Project Cainwood` re-titled to the now famous First Class trouble. Along with the new defining title, an aplha release for tesing was developed for users following the games journey.
               </HistoryDiv>
             </article>
             <article>
