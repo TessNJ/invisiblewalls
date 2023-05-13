@@ -4,7 +4,6 @@ import Employee from "../components/Employee";
 import HistoryDiv from "../components/HistoryDiv";
 
 export default function About({ data }) {
-  // console.log(data);
   return (
     <>
       <Head>
@@ -19,8 +18,8 @@ export default function About({ data }) {
           <div>
             <h1>About</h1>
             <p>
-              Awesome people who design, iterate and produce great interactive experiences focused on social interaction. As a team we can offer years of experience making games and a broad range of products within AR and VR - with fine-tuned skills
-              spanning over visual effects, animation, programming and much more. We all share a dedication to the newest technology and always strive towards creating breath-taking products.
+              We are a team of awsome people who design, iterate and produce great interactive experiences focused on social interaction. As a team we can offer years of experience making games and a broad range of products within AR and VR - with
+              fine-tuned skills spanning over visual effects, animation, programming and much more. We all share a dedication to the newest technology and always strive towards creating breath-taking products.
             </p>
           </div>
         </section>

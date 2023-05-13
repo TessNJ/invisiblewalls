@@ -17,17 +17,18 @@ export default function Contact() {
           <div>
             <h1>Contact</h1>
             <p>
-              Awesome people who design, iterate and produce great interactive experiences focused on social interaction. As a team we can offer years of experience making games and a broad range of products within AR and VR - with fine-tuned skills
-              spanning over visual effects, animation, programming and much more. We all share a dedication to the newest technology and always strive towards creating breath-taking products.
+              We are a team dedicated to our users and to provide the best service we can. We have varying ways to reach us, depending on the reason for inquiring, and is labelled accordingly. We strive to respond within 4-5 business days for written
+              and more complex inquires, and within working hours 8:00-17:00 Monday to Friday for call based inquires.
             </p>
           </div>
         </section>
         <section className="contactSection">
           <article className="contactInfo">
             <di>
-              <h3>Lorem</h3>
+              <h3>General Inquiries</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+                We are always ready to help but can be preoccupied with current projects. For fast and easy questions please refer to our phone line, and for more complicated matters such as bugs or help needed, please refer to the listed email
+                address.
               </p>
             </di>
             <div>
@@ -40,37 +41,6 @@ export default function Contact() {
               </p>
             </div>
           </article>
-          {/* <article className="contactForm">
-            <div>
-              <h3>Lorem</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
-              </p>
-            </div>
-            <form>
-              <div>
-                <label>
-                  Email
-                  <input placeholder="Your email..." typeof="email"></input>
-                </label>
-                <label>
-                  Name
-                  <input placeholder="Your name..." typeof="text"></input>
-                </label>
-              </div>
-              <label id="textBox">
-                Message
-                <textarea placeholder="Your Message ..."></textarea>
-              </label>
-              <button
-                onClick={(e) => {
-                  e.preventDefault();
-                }}
-              >
-                Send
-              </button>
-            </form>
-          </article> */}
           <ContactForm />
         </section>
       </main>

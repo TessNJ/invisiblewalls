@@ -3,7 +3,6 @@ import Head from "next/head";
 import JobListItem from "../components/JobListItem";
 
 export default function Career({ data }) {
-  // console.log(data);
   return (
     <>
       <Head>
@@ -18,8 +17,8 @@ export default function Career({ data }) {
           <div>
             <h1>Career</h1>
             <p>
-              Awesome people who design, iterate and produce great interactive experiences focused on social interaction. As a team we can offer years of experience making games and a broad range of products within AR and VR - with fine-tuned skills
-              spanning over visual effects, animation, programming and much more. We all share a dedication to the newest technology and always strive towards creating breath-taking products.
+              We are a dedicated, hardworking team, who focus on great experiences and user experience. As we grow and develop, we periodically look for other enthusiastic people to join the team in delivering great products to our consumers. Here
+              you can find currently available roles within the company, or to reach out regarding other positions, please refer to the contact form in the contact page.
             </p>
           </div>
         </section>

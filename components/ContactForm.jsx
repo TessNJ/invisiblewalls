@@ -25,8 +25,8 @@ export default function ContactForm() {
   return (
     <article className="contactForm">
       <div>
-        <h3>Lorem</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!</p>
+        <h3>Employment / Opportunities</h3>
+        <p>To discuss additional positions on the team, or if you have a collaboration you would like to discuss, please fill out the form below. We will reach out at the earliest convenience, and we can&apos;t wait to hear more!</p>
       </div>
       <form
         id="contactFormRef"

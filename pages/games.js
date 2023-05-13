@@ -19,7 +19,10 @@ export default function Games({ data }) {
         <section className="gamesIntro">
           <div>
             <h1>Games</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!</p>
+            <p>
+              At Invisible Walls we have developed a number of games, as well as other types of content in collaborations. Here you can see a list of published and credited work from our Studio. We hope to add many more in the future, and hope you
+              enjoy the current games available!
+            </p>
           </div>
         </section>
         <section className="gamesGrid">
