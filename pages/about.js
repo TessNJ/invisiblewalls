@@ -55,34 +55,36 @@ export default function About({ data }) {
             <article>
               <h4>2019</h4>
               <HistoryDiv name="First Class Trouble alpha">
-                In 2019 the game previously known as `Project Cainwood` re-titled to the now famous First Class trouble. Along with the new defining title, an aplha release for tesing was developed for users following the games journey.
+                In 2019 the game previously known as `Project Cainwood`, was re-titled to the now famous First Class trouble. Along with the new defining title, an aplha release for tesing was developed for users following the games journey.
               </HistoryDiv>
             </article>
             <article>
               <h4>2020</h4>
               <HistoryDiv name="Novafos VR / Snapchat / Mobile game">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+                Alongside the development of their main project, the team collaborated with the water company Novafos in 2020. In this collaborations we developed a number of different types of content, the biggest being a VR experience.
               </HistoryDiv>
             </article>
             <article>
               <h4>2021</h4>
               <HistoryDiv name="April: First Class Trouble EA">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+                After 2 years of development the game First Class trouble was available for Early Access in April of 2021. From this point, users were able to play and experience the periodic improvements made in the game, both in means of gameplay
+                and content.
               </HistoryDiv>
               <HistoryDiv name="November: First Class Trouble Release">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+                Later that same year in November 2021, the game had it`s full release. Through the 6 months of development, the game`s functionally became what we know today, and would continue to grow over years in terms of content available.
               </HistoryDiv>
             </article>
             <article>
               <h4>2022</h4>
               <HistoryDiv name="John Dillermand">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+                While continueing the work of previous games, the team collaborated with the Danish Broadcasting Corporation and the company MadeByUs. In this collaboration, we developed a mobile game for the beloved danish childrens franchice, John
+                Dillermand.
               </HistoryDiv>
             </article>
             <article>
               <h4>2023</h4>
               <HistoryDiv name="Next title in progress">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati modi nesciunt optio soluta voluptatum fuga quam repellendus temporibus impedit, sunt minima iste veritatis dolor ipsam voluptatibus id dicta suscipit!
+                With the success of their previous games, and the enthusiastic team, we at Invisible Walls will continue producing great quality content and strive to make our newest addition no different. We can`t wait to share it with you!
               </HistoryDiv>
             </article>
           </div>
