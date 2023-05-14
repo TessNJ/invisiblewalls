@@ -18,15 +18,12 @@ export default function Home() {
             <div>
               <h1>Invisible Walls</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla suscipit massa ac ullamcorper. <br />
-                Proin vitae condimentum lectus. Pellentesque sollicitudin, diam ac ultricies tincidunt, sapien nisi pulvinar lacus, ac auctor urna felis non dolor. Pellentesque consequat lobortis interdum.
+                We are the award winning studio behind First Class Trouble and Aporia: Beyond the Valley. Our focus is creating social strategy games, where social interaction is the core part of the experience. <br /> We value creativity,
+                cooperation and developing game that are as fun to watch as they are to play. And we aim to incorporate these values into all our future games and other projects.
               </p>
             </div>
             <div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla suscipit massa ac ullamcorper. Proin vitae condimentum lectus. Pellentesque sollicitudin, diam ac ultricies tincidunt, sapien nisi pulvinar lacus, ac
-                auctor urna felis non dolor. Pellentesque consequat lobortis interdum.
-              </p>
+              <p>This site aims to give you a look into who we are as a company, what we have developed over the years and posibilities of becoming part of the team.</p>
               <Anchor href="/about" className="buttonSplash iconHover">
                 Read More
               </Anchor>
@@ -86,21 +83,17 @@ export default function Home() {
           </article>
           <article className="infoArticle">
             <div>
-              <h2>Our world</h2>
+              <h2>Our website</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla suscipit massa ac ullamcorper. Proin vitae condimentum lectus. Pellentesque sollicitudin, diam ac ultricies tincidunt, sapien nisi pulvinar lacus, ac
-                auctor urna felis non dolor. Pellentesque consequat lobortis interdum. Curabitur vel consectetur metus. Nullam lobortis purus sit amet hendrerit ullamcorper. Praesent lacinia lectus magna, sit amet ultrices odio interdum eu.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla suscipit massa ac ullamcorper. Proin vitae condimentum lectus. Pellentesque sollicitudin, diam ac ultricies tincidunt, sapien nisi pulvinar lacus, ac
-                auctor urna felis non dolor. Pellentesque consequat lobortis interdum. Curabitur vel consectetur metus. Nullam lobortis purus sit amet hendrerit ullamcorper. Praesent lacinia lectus magna, sit amet ultrices odio interdum eu.
+                Here you can find an overview of what this site contains. To read more about previous project you can head to the Games section. To read more about the history of the company and the team head to the About page. For available position
+                head to the Career page or read more below. And for any inquiries you might have you can head to the Contact page, to find out how best to get in touch with us.
               </p>
             </div>
             <div className="infoLinks">
               <h3>Your future in game development</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla suscipit massa ac ullamcorper. Proin vitae condimentum lectus. Pellentesque sollicitudin, diam ac ultricies tincidunt, sapien nisi pulvinar lacus, ac
-                auctor urna felis non dolor. Pellentesque consequat lobortis interdum. Curabitur vel consectetur metus. Nullam lobortis purus sit amet hendrerit ullamcorper. Praesent lacinia lectus magna, sit amet ultrices odio interdum eu.
+                As we grow as a company, it is important to us that we keep the quality of our products consistant. We continuesly keep a look out for enthusiastic individuals and post available posisitons here on our website. If you are looking for
+                the next step in your future within game development, please reply to relevant open position, or contact us through the form by our contact information for unsolicited applications!
               </p>
               <Anchor href="/career" className="buttonGallery">
                 Join Us!
