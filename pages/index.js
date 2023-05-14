@@ -23,7 +23,7 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <p>This site aims to give you a look into who we are as a company, what we have developed over the years and posibilities of becoming part of the team.</p>
+              <p>This site aims to give you a look into who we are as a company, what we have developed over the years and possibilities of becoming part of the team.</p>
               <Anchor href="/about" className="buttonSplash iconHover">
                 Read More
               </Anchor>
@@ -92,7 +92,7 @@ export default function Home() {
             <div className="infoLinks">
               <h3>Your future in game development</h3>
               <p>
-                As we grow as a company, it is important to us that we keep the quality of our products consistant. We continuesly keep a look out for enthusiastic individuals and post available posisitons here on our website. If you are looking for
+                As we grow as a company, it is important to us that we keep the quality of our products consistent. We continuously keep a look out for enthusiastic individuals and post available positions here on our website. If you are looking for
                 the next step in your future within game development, please reply to relevant open position, or contact us through the form by our contact information for unsolicited applications!
               </p>
               <Anchor href="/career" className="buttonGallery">
