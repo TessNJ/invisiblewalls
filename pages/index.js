@@ -31,9 +31,9 @@ export default function Home() {
           </article>
           <article className="landingPage_imageArticle">
             <div>
-              <Image className="imageAr1" alt="" src={"/FirstClassIMG2.jpg"} width="300" height="300"></Image>
-              <Image className="imageAr2" alt="" src={"/AporiaIMG.jpg"} width="175" height="175"></Image>
-              <Image className="imageAr3" alt="" src={"/FirstClassIMG.jpg"} width="100" height="100"></Image>
+              <Image className="imageAr1" alt="" src={"/FirstClassIMG2.webp"} width="300" height="300"></Image>
+              <Image className="imageAr2" alt="" src={"/AporiaIMG.webp"} width="175" height="175"></Image>
+              <Image className="imageAr3" alt="" src={"/FirstClassIMG.webp"} width="100" height="100"></Image>
             </div>
           </article>
         </section>
@@ -41,7 +41,7 @@ export default function Home() {
           <ul>
             <li>
               <Anchor href="http://discord.gg/npeDKJh" target>
-                <Image alt="" src="/discord-mark-white.webp" width="50" height="50" />
+                <Image alt="" src="/discord-mark-white.png" width="50" height="50" />
               </Anchor>
             </li>
             <li>
@@ -56,7 +56,7 @@ export default function Home() {
             </li>
             <li>
               <Anchor href="https://twitter.com/invisible0walls" target>
-                <Image alt="" src="/twitterlogo.webp" width="50" height="50" />
+                <Image alt="" src="/twitterlogo.png" width="50" height="50" />
               </Anchor>
             </li>
             <li>
@@ -69,16 +69,16 @@ export default function Home() {
         <section className="gallerySection">
           <article className="galleryArticle">
             <Anchor href="/games" className="imgContainer">
-              <Image className="imgHover" alt="" src={"/caspar-camille-rubin-oI6zrBj3nKw-unsplash.jpg"} width="800" height="800"></Image>
+              <Image className="imgHover" alt="" src={"/caspar-camille-rubin-oI6zrBj3nKw-unsplash.webp"} width="800" height="800"></Image>
             </Anchor>
             <Anchor href="/about" className="imgContainer">
-              <Image className="imgHover" alt="" src={"/aboutbg.jpg"} width="800" height="800"></Image>
+              <Image className="imgHover" alt="" src={"/aboutbg.webp"} width="800" height="800"></Image>
             </Anchor>
             <Anchor href="/career" className="imgContainer">
-              <Image className="imgHover" alt="" src={"/andrew-neel-cckf4TsHAuw-unsplash.jpg"} width="800" height="800"></Image>
+              <Image className="imgHover" alt="" src={"/andrew-neel-cckf4TsHAuw-unsplash.webp"} width="800" height="800"></Image>
             </Anchor>
             <Anchor href="/contact" className="imgContainer">
-              <Image className="imgHover" alt="" src={"/luca-bravo-9l_326FISzk-unsplash.jpg"} width="800" height="800"></Image>
+              <Image className="imgHover" alt="" src={"/luca-bravo-9l_326FISzk-unsplash.webp"} width="800" height="800"></Image>
             </Anchor>
           </article>
           <article className="infoArticle">

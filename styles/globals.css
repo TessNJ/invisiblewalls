@@ -139,7 +139,7 @@ header nav {
 }
 
 header img {
-  max-width: 90px;
+  max-width: 150px;
 }
 .logoLink {
   display: flex;
@@ -263,7 +263,7 @@ article {
 .landingPage_imageArticle {
   width: 100%;
   padding: 11vw 0;
-  background: url("/334488809_540071724778281_1717384824777940824_n.jpg");
+  background: url("/334488809_540071724778281_1717384824777940824_n.webp");
   background-position: center;
   background-size: cover;
 }
@@ -396,7 +396,7 @@ article {
   min-height: 480px;
 }
 .gamesIntro {
-  background-image: url("/caspar-camille-rubin-oI6zrBj3nKw-unsplash.jpg");
+  background-image: url("/caspar-camille-rubin-oI6zrBj3nKw-unsplash.webp");
 }
 
 .gamesGrid {
@@ -456,7 +456,7 @@ article {
   text-shadow: var(--dark-colour) 1px 1px 1px;
 }
 .aboutIntro {
-  background-image: url("/aboutbg2.jpg");
+  background-image: url("/aboutbg2.webp");
 }
 
 .aboutHistory {
@@ -511,7 +511,7 @@ article {
   display: block;
 }
 .contactIntro {
-  background-image: url("/luca-bravo-9l_326FISzk-unsplash.jpg");
+  background-image: url("/luca-bravo-9l_326FISzk-unsplash.webp");
 }
 .contactSection {
   display: grid;
@@ -597,7 +597,7 @@ textarea::placeholder {
 }
 
 .careerIntro {
-  background-image: url("/andrew-neel-cckf4TsHAuw-unsplash.jpg");
+  background-image: url("/andrew-neel-cckf4TsHAuw-unsplash.webp");
 }
 .careerList article {
   padding: 0;
