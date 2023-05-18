@@ -15,7 +15,7 @@ function Layout({ children }) {
     <>
       <header>
         <Anchor href={"/"} className={"logoLink"}>
-          <Image alt="" src={"/logo.png"} width={logoWidth} height={logoHeight} />
+          <Image alt="" src={"/logo.webp"} width={logoWidth} height={logoHeight} />
         </Anchor>
         <div className="burgerMenu" onClick={unfoldMenu}>
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
@@ -56,27 +56,27 @@ function Layout({ children }) {
       <footer>
         <div className="footerLogos">
           <Anchor href={"/"}>
-            <Image alt="" src={"/logo.png"} width="350" height="200" />
+            <Image alt="" src={"/logo.webp"} width="350" height="200" />
           </Anchor>
           <Anchor href={"https://www.amplifiergameinvest.com"}>
-            <Image alt="" src={"/amplifierlogo.png"} width="350" height="200" />
+            <Image alt="" src={"/amplifierlogo.webp"} width="350" height="200" />
           </Anchor>
         </div>
         <div className="socialLinks">
           <Anchor href="http://discord.gg/npeDKJh" target>
-            <Image alt="" src="/discord-mark-white.png" width="50" height="50" />
+            <Image alt="" src="/discord-mark-white.webp" width="50" height="50" />
           </Anchor>
           <Anchor href="https://www.facebook.com/invisiblewallsstudio" target>
-            <Image alt="" src="/fbicon.png" width="50" height="50" />
+            <Image alt="" src="/fbicon.webp" width="50" height="50" />
           </Anchor>
           <Anchor href="https://www.youtube.com/channel/UCAqeOUBMp_aX3tVZm1i_njQ" target>
-            <Image alt="" src="/youtubeicon.png" width="50" height="50" />
+            <Image alt="" src="/youtubeicon.webp" width="50" height="50" />
           </Anchor>
           <Anchor href="https://twitter.com/invisible0walls" target>
-            <Image alt="" src="/twitterlogo.png" width="50" height="50" />
+            <Image alt="" src="/twitterlogo.webp" width="50" height="50" />
           </Anchor>
           <Anchor href="https://www.instagram.com/invisible_walls/" target>
-            <Image alt="" src="/instaicon.png" width="50" height="50" />
+            <Image alt="" src="/instaicon.webp" width="50" height="50" />
           </Anchor>
         </div>
         <div className="addressFooter">

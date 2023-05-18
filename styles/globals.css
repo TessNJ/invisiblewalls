@@ -73,6 +73,7 @@ p {
   font-family: var(--main-font);
   font-weight: 300;
   color: var(--main-font-colour);
+  max-width: 75ch;
 }
 a {
   font-family: var(--main-font);
@@ -102,6 +103,7 @@ header {
 
 header li {
   list-style: none;
+  display: inline-block;
 }
 
 header a {
@@ -274,7 +276,8 @@ article {
   grid-template-columns: 30vw 1fr;
   gap: 5vw;
   width: 100%;
-  backdrop-filter: blur(5px);
+  /* backdrop-filter: blur(5px); */
+  background-color: #000000ca;
 }
 
 .imageAr1 {
@@ -313,25 +316,14 @@ article {
 .linksSection ul {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 .linksSection li {
   list-style: none;
   border-right: var(--accent-colour) solid 3px;
 }
-.linksSection li:first-child {
-  border-left: var(--accent-colour-darker) solid 3px;
-}
-
-.linksSection a {
-  font-weight: 600;
-  color: var(--main-font-colour);
-}
-.linksSection a:hover {
-  color: var(--accent-colour-darker);
-  font-style: italic;
-}
-.linksSection img {
-  filter: var(--secondary-font-colour);
+.linksSection li:last-child {
+  border-right: none;
 }
 
 .gallerySection {
@@ -401,6 +393,7 @@ article {
   background-size: cover;
   background-position: center;
   color: var(--main-font-colour);
+  min-height: 480px;
 }
 .gamesIntro {
   background-image: url("/caspar-camille-rubin-oI6zrBj3nKw-unsplash.jpg");
@@ -432,9 +425,9 @@ article {
   font-weight: 800;
   text-transform: uppercase;
 }
-.gamesGrid article:nth-of-type(2n) h4 {
+/* .gamesGrid article:nth-of-type(2n) h4 {
   color: var(--accent-colour-darker);
-}
+} */
 
 .gamesGrid article:nth-of-type(2n) {
   background-color: var(--secondary-bg-colour);
@@ -446,7 +439,7 @@ article {
 .contactIntro div,
 .careerIntro div {
   padding: 2vw 4vw;
-  backdrop-filter: blur(10px);
+  background-color: #000000d5;
 }
 .gamesIntro p,
 .aboutIntro p,
@@ -713,6 +706,7 @@ textarea::placeholder {
     align-items: center;
     height: 100vh;
     width: 120px;
+    padding: 1vh 0;
   }
   header ul {
     margin: 0;
@@ -723,7 +717,7 @@ textarea::placeholder {
   }
 
   header li {
-    transform: rotate(-25deg);
+    transform: rotate(-15deg);
   }
 
   header nav {
@@ -777,6 +771,7 @@ textarea::placeholder {
     color: var(--accent-colour);
     font-weight: 900;
     text-shadow: var(--dark-colour) 1px 1px 2px;
+    font-size: 1.5rem;
   }
   .imgContainer:nth-of-type(1) + .imgContainer:hover::before {
     content: "About";
@@ -788,7 +783,7 @@ textarea::placeholder {
     content: "Contact";
   }
   .galleryArticle img {
-    filter: grayscale(1) blur(2px);
+    filter: grayscale(1);
   }
 
   .text {
@@ -817,10 +812,21 @@ textarea::placeholder {
     left: -50px;
   }
   .contactInfo {
-    padding: 6vw 4vw;
+    padding: 3vw;
   }
-
+  .contactForm {
+    padding: 3vw;
+  }
   @media screen and (min-width: 1101px) {
+    p {
+      font-size: 1.1rem;
+    }
+    li {
+      font-size: 1.1rem;
+    }
+    header li {
+      font-size: 1rem;
+    }
     footer {
       padding: 3vw 17vw;
       gap: 4vw;
@@ -890,6 +896,12 @@ textarea::placeholder {
       align-self: flex-end;
       justify-self: flex-end;
     }
+    .linksSection {
+      padding: 2% 0;
+    }
+    .linksSection img {
+      max-width: 40px;
+    }
 
     .gamesGrid {
       display: grid;
@@ -956,7 +968,7 @@ textarea::placeholder {
 }
 .imgHover:hover {
   transform: scale3d(1.1, 1.1, 1.1);
-  filter: grayscale(0) blur(0);
+  filter: grayscale(0);
 }
 
 @keyframes popout {

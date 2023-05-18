@@ -12,7 +12,7 @@ export default function Job({ data }) {
     showButton = <button className="applyButton">Apply Job</button>;
   } else {
     // console.log("invalid");
-    showButton = <p className="applyInvalid">Dealine has past</p>;
+    showButton = <p className="applyInvalid">Deadline has past</p>;
   }
 
   return (
@@ -22,7 +22,7 @@ export default function Job({ data }) {
         <meta name="description" content="Job post" />
         <meta name="robots" content="noindex,nofollow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.webp" />
       </Head>
       <main className="jobPost">
         <section className="jobIntro">

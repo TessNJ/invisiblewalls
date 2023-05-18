@@ -10,7 +10,7 @@ export default function Contact() {
         <meta name="description" content="Contact Information" />
         <meta name="robots" content="noindex,nofollow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.webp" />
       </Head>
       <main>
         <section className="contactIntro">
@@ -24,13 +24,13 @@ export default function Contact() {
         </section>
         <section className="contactSection">
           <article className="contactInfo">
-            <di>
+            <div>
               <h3>General Inquiries</h3>
               <p>
                 We are always ready to help but can be preoccupied with current projects. For fast and easy questions please refer to our phone line, and for more complicated matters such as bugs or help needed, please refer to the listed email
                 address.
               </p>
-            </di>
+            </div>
             <div>
               <p className="infoDiv">
                 Contact us at&nbsp; <a href="mailto: info@invisiblewalls.co ">info@invisiblewalls.co</a>&nbsp;or call at &nbsp;<a href="tel:+4500000000">+45 00 00 00 00</a>

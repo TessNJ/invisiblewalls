@@ -10,7 +10,7 @@ export default function Career({ data }) {
         <meta name="description" content="Job listings" />
         <meta name="robots" content="noindex,nofollow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.webp" />
       </Head>
       <main>
         <section className="careerIntro">
