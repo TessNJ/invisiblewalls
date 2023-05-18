@@ -67,16 +67,16 @@ function Layout({ children }) {
             <Image alt="" src="/discord-mark-white.webp" width="50" height="50" />
           </Anchor>
           <Anchor href="https://www.facebook.com/invisiblewallsstudio" target>
-            <Image alt="" src="/fbicon.webp" width="50" height="50" />
+            <Image alt="" src="/fbicon.png" width="50" height="50" />
           </Anchor>
           <Anchor href="https://www.youtube.com/channel/UCAqeOUBMp_aX3tVZm1i_njQ" target>
-            <Image alt="" src="/youtubeicon.webp" width="50" height="50" />
+            <Image alt="" src="/youtubeicon.png" width="50" height="50" />
           </Anchor>
           <Anchor href="https://twitter.com/invisible0walls" target>
             <Image alt="" src="/twitterlogo.webp" width="50" height="50" />
           </Anchor>
           <Anchor href="https://www.instagram.com/invisible_walls/" target>
-            <Image alt="" src="/instaicon.webp" width="50" height="50" />
+            <Image alt="" src="/instaicon.png" width="50" height="50" />
           </Anchor>
         </div>
         <div className="addressFooter">
