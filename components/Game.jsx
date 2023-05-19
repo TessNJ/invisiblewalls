@@ -14,7 +14,7 @@ export default function Game({ name, desc, img, link }) {
   }
   return (
     <article>
-      <Image alt="" src={img} width="1920" height="700"></Image>
+      <Image alt="" src={img} width="537" height="460"></Image>
       <div>
         <h4> {name}</h4>
         <p>{desc}</p>

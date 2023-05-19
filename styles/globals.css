@@ -263,6 +263,7 @@ article {
   font-weight: 800;
   letter-spacing: 2px;
   font-size: 0.8rem;
+  border-radius: 5px;
 }
 
 .landingPage_imageArticle {
@@ -418,7 +419,7 @@ article {
 .aboutIntro div,
 .contactIntro div,
 .careerIntro div {
-  padding: 2vw 4vw;
+  padding: 2vw 20%;
   background-color: #000000e5;
 }
 .gamesIntro p,
@@ -427,6 +428,7 @@ article {
 .careerIntro p {
   font-weight: 500;
   text-shadow: var(--dark-colour) 1px 1px 1px;
+  text-align: center;
 }
 .gamesIntro h1,
 .aboutIntro h1,
@@ -434,6 +436,7 @@ article {
 .careerIntro h1 {
   color: var(--accent-colour);
   text-shadow: var(--dark-colour) 1px 1px 1px;
+  text-align: center;
 }
 .aboutIntro {
   background-image: url("/aboutbg2.webp");
@@ -472,7 +475,7 @@ article {
 }
 .employeeGrid div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(219px, 1fr));
   justify-content: space-evenly;
 }
 .employeeGrid h2 {
@@ -484,11 +487,16 @@ article {
   position: relative;
   padding: 0;
   margin: 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 .employeeImg {
-  width: 100%;
+  max-width: 219px;
   aspect-ratio: 1/1;
   display: block;
+  border-radius: 37px;
 }
 .contactIntro {
   background-image: url("/luca-bravo-9l_326FISzk-unsplash.webp");
@@ -569,6 +577,7 @@ textarea::placeholder {
 .contactForm button {
   padding: 10px 30px;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .careerIntro {
@@ -609,6 +618,7 @@ textarea::placeholder {
   font-weight: 800;
   transition: 0.3s;
   animation-timing-function: ease-in;
+  border-radius: 10px;
 }
 .jobPost li {
   text-align: left;
@@ -617,8 +627,14 @@ textarea::placeholder {
 .jobIntro {
   background-color: var(--main-bg-colour-darker);
 }
+.jobIntro h1 {
+  text-align: center;
+}
+.jobIntro p {
+  text-align: center;
+}
 .jobIntro div {
-  padding: 4vw;
+  padding: 2vw 20%;
 }
 .jobDetails {
   display: flex;
@@ -632,8 +648,9 @@ textarea::placeholder {
   justify-content: center;
 }
 .imageArticle img {
-  height: 700px;
+  height: 717px;
   object-fit: cover;
+  border-radius: 37px;
 }
 .jobDetails p,
 .jobDetails ul {
@@ -649,6 +666,7 @@ textarea::placeholder {
   background-color: var(--accent-colour);
   color: var(--main-font-colour);
   padding: 1vw 2vw;
+  border-radius: 10px;
 }
 .applyButton:hover {
   background-color: var(--accent-colour-darker);
@@ -720,12 +738,13 @@ textarea::placeholder {
   .overlay {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
     height: 100%;
+    aspect-ratio: 1/1;
+    align-items: center;
     opacity: 0;
     transition: opacity 0.5s;
     background-color: var(--accent-colour-darker);
+    border-radius: 37px;
   }
   .container:hover .overlay {
     opacity: 1;
@@ -794,6 +813,7 @@ textarea::placeholder {
     }
     .gamesGrid img {
       max-width: 60%;
+      border-radius: 37px;
     }
     .gallerySection {
       grid-template-columns: 1fr 43%;

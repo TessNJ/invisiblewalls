@@ -67,7 +67,7 @@ export default function Job({ data }) {
             <div className="applyButtonDiv">{showButton}</div>
           </article>
           <article className="imageArticle">
-            <Image className="" alt="" src={"/" + jobData.imgname} width="600" height="700" />
+            <Image className="" alt="" src={"/" + jobData.imgname} width="897" height="717" />
           </article>
         </section>
       </main>
