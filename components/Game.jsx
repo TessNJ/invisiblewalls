@@ -7,7 +7,7 @@ export default function Game({ name, desc, img, link }) {
   let linkPresent;
   if (link) {
     linkPresent = (
-      <Anchor href={link} target className="buttonSplash ">
+      <Anchor href={link} target className="buttonSplash iconHover">
         See More
       </Anchor>
     );

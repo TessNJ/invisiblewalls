@@ -131,7 +131,7 @@ header nav {
   width: 100%;
   position: absolute;
   background-color: var(--main-bg-colour-darker);
-  top: 55px;
+  top: 80px;
   left: 0;
   opacity: 1;
   visibility: visible;
@@ -148,11 +148,9 @@ header img {
   flex-direction: column;
 }
 
-header path {
-  fill: var(--secondary-bg-colour);
-}
-header path.active {
-  fill: var(--accent-colour);
+.burgerMenu img {
+  filter: brightness(0) invert(1);
+  cursor: pointer;
 }
 
 footer {
@@ -200,13 +198,20 @@ footer nav ul {
   max-width: 40%;
   height: "auto";
 }
-
+.footerLogos a:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out all;
+}
 .socialLinks {
   display: flex;
   flex-direction: row;
   width: 100%;
   padding: 2vw;
   justify-content: space-around;
+}
+.socialLinks a:hover {
+  transform: scale(1.1);
+  transition: 0.1s ease-in-out all;
 }
 
 .addressFooter {
@@ -268,45 +273,6 @@ article {
   background-size: cover;
   min-height: 500px;
 }
-/* 
-.landingPage_imageArticle div {
-  padding: 0 5vw;
-  position: relative;
-  display: grid;
-  grid-template-columns: 30vw 1fr;
-  gap: 5vw;
-  width: 100%;
-  background-color: #000000ca;
-}
-
-.imageAr1 {
-  grid-column: 2;
-  align-self: flex-end;
-  justify-self: flex-start;
-  aspect-ratio: 1/1;
-  object-fit: cover;
-  user-select: none;
-  box-shadow: var(--dark-colour) 3px 3px 5px 1px;
-}
-.imageAr2 {
-  user-select: none;
-  aspect-ratio: 1/1;
-  grid-column: 2;
-  align-self: flex-start;
-  object-fit: cover;
-  justify-self: flex-start;
-  box-shadow: var(--dark-colour) 3px 3px 5px 1px;
-}
-.imageAr3 {
-  user-select: none;
-  aspect-ratio: 1/1;
-  object-fit: cover;
-  grid-column: 1;
-  grid-row: 1;
-  align-self: flex-end;
-  justify-self: flex-end;
-  box-shadow: var(--dark-colour) 3px 3px 5px 1px;
-} */
 
 .linksSection {
   background-color: var(--main-bg-colour);
@@ -323,6 +289,10 @@ article {
 }
 .linksSection li:last-child {
   border-right: none;
+}
+.linksSection a:hover {
+  transform: scale(1.1);
+  transition: 0.1s ease-in-out all;
 }
 
 .gallerySection {
@@ -395,25 +365,6 @@ article {
   height: 300px;
 }
 
-.buttonGallery {
-  background-color: var(--accent-colour);
-  border: none;
-  padding: 2% 5%;
-  letter-spacing: 2px;
-  transition: 0.3s;
-  animation-timing-function: ease-in;
-  cursor: pointer;
-  color: var(--dark-colour);
-  align-self: flex-end;
-  font-weight: 700;
-  font-size: 0.8rem;
-}
-
-.buttonGallery:hover {
-  box-shadow: #828282 3px 3px 5px 1px;
-  transform: translate(5px, 5px);
-}
-
 .gamesIntro,
 .aboutIntro,
 .contactIntro,
@@ -457,9 +408,6 @@ article {
   font-weight: 800;
   text-transform: uppercase;
 }
-/* .gamesGrid article:nth-of-type(2n) h4 {
-  color: var(--accent-colour-darker);
-} */
 
 .gamesGrid article:nth-of-type(2n) {
   background-color: var(--secondary-bg-colour);
@@ -619,12 +567,7 @@ textarea::placeholder {
   font-style: italic;
 }
 .contactForm button {
-  background-color: var(--accent-colour);
-  border: none;
   padding: 10px 30px;
-  font-weight: 800;
-  color: var(--dark-colour);
-  align-self: flex-end;
   cursor: pointer;
 }
 
@@ -662,10 +605,6 @@ textarea::placeholder {
   font-weight: 800;
   transition: 0.3s;
   animation-timing-function: ease-in;
-}
-.jobButton:hover {
-  background-color: var(--accent-colour-darker);
-  box-shadow: #828282 3px 3px 5px 1px;
 }
 .jobPost li {
   text-align: left;
@@ -792,32 +731,6 @@ textarea::placeholder {
     text-shadow: var(--main-bg-colour-darker) 0px 0px 4px, var(--main-bg-colour-darker) 2px 2px, var(--main-bg-colour-darker) 3px 3px;
   }
 
-  /* .imgContainer:hover::before {
-    content: "Games";
-    position: absolute;
-    z-index: 100;
-    top: 50%;
-    left: 30%;
-    right: 30%;
-    width: 40%;
-    margin: auto;
-    height: 20px;
-    padding: 10px;
-    text-align: center;
-    color: var(--accent-colour);
-    font-weight: 900;
-    text-shadow: var(--dark-colour) 2px 2px 2px;
-    font-size: 1.5rem;
-  }
-  .imgContainer:nth-of-type(1) + .imgContainer:hover::before {
-    content: "About";
-  }
-  .imgContainer:nth-of-type(2) + .imgContainer:hover::before {
-    content: "Career";
-  }
-  .imgContainer:nth-of-type(3) + .imgContainer:hover::before {
-    content: "Contact";
-  } */
   .galleryArticle img {
     filter: grayscale(1);
   }
@@ -906,12 +819,7 @@ textarea::placeholder {
       height: inherit;
       min-height: 600px;
     }
-    /*     .landingPage_imageArticle div {
-      display: grid;
-      grid-template-columns: 20vw 1fr;
-      gap: 2vw;
-      padding: 0;
-    } */
+
     .infoArticle {
       padding: 4vw 2vw;
     }
@@ -995,11 +903,11 @@ textarea::placeholder {
   animation-timing-function: ease-in;
 }
 .iconHover:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.1);
   box-shadow: #000000 3px 3px 5px 1px;
 }
 .imgHover {
-  transition: 0.5s ease-in-out all;
+  transition: 0.3s ease-in-out all;
   transform: scale3d(1, 1, 1);
 }
 .imgHover:hover {

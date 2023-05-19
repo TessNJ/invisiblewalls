@@ -48,12 +48,7 @@ export default function ContactForm() {
           Message
           <textarea placeholder="Your Message ..." required></textarea>
         </label>
-        <button
-          type="submit"
-          //   onSubmit={(e) => {
-          //     validateForm(e);
-          //   }}
-        >
+        <button type="submit" className="buttonSplash iconHover">
           Send
         </button>
       </form>

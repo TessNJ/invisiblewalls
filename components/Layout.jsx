@@ -18,9 +18,7 @@ function Layout({ children }) {
           <Image alt="" src={"/logo.webp"} width={logoWidth} height={logoHeight} />
         </Anchor>
         <div className="burgerMenu" onClick={unfoldMenu}>
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
-            <path fillRule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1.5H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1.5H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1.5H3a.5.5 0 0 1-.5-.5z" />
-          </svg>
+          <Image src={"/burger-menu.png"} height="35" width="35" alt="burgerMenu" />
         </div>
         <nav className="navMenu hideMenu">
           <ul>
