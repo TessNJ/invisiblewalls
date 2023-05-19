@@ -419,13 +419,13 @@ article {
 .contactIntro div,
 .careerIntro div {
   padding: 2vw 4vw;
-  background-color: #000000d5;
+  background-color: #000000e5;
 }
 .gamesIntro p,
 .aboutIntro p,
 .contactIntro p,
 .careerIntro p {
-  font-weight: 600;
+  font-weight: 500;
   text-shadow: var(--dark-colour) 1px 1px 1px;
 }
 .gamesIntro h1,
@@ -589,6 +589,10 @@ textarea::placeholder {
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
+  text-align: center;
+}
+.careerList p {
+  max-width: none;
 }
 .joblistul li:nth-child(odd) {
   background-color: var(--secondary-bg-colour);
