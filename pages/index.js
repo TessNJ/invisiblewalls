@@ -30,38 +30,38 @@ export default function Home() {
             </div>
           </article>
           <article className="landingPage_imageArticle">
-            <div>
+            {/* <div>
               <Image className="imageAr1" alt="" src={"/FirstClassIMG2.webp"} width="300" height="300"></Image>
               <Image className="imageAr2" alt="" src={"/AporiaIMG.webp"} width="175" height="175"></Image>
               <Image className="imageAr3" alt="" src={"/FirstClassIMG.webp"} width="100" height="100"></Image>
-            </div>
+            </div> */}
           </article>
         </section>
         <section className="linksSection">
           <ul>
             <li>
               <Anchor href="http://discord.gg/npeDKJh" target>
-                <Image alt="" src="/discord-mark-white.png" width="50" height="50" />
+                <Image alt="" src="/discord-mark-white.png" width="35" height="35" />
               </Anchor>
             </li>
             <li>
               <Anchor href="https://www.facebook.com/invisiblewallsstudio" target>
-                <Image alt="" src="/fbicon.png" width="50" height="50" />
+                <Image alt="" src="/fbicon.png" width="35" height="35" />
               </Anchor>
             </li>
             <li>
               <Anchor href="https://www.youtube.com/channel/UCAqeOUBMp_aX3tVZm1i_njQ" target>
-                <Image alt="" src="/youtubeicon.png" width="50" height="50" />
+                <Image alt="" src="/youtubeicon.png" width="35" height="35" />
               </Anchor>
             </li>
             <li>
               <Anchor href="https://twitter.com/invisible0walls" target>
-                <Image alt="" src="/twitterlogo.png" width="50" height="50" />
+                <Image alt="" src="/twitterlogo.png" width="35" height="35" />
               </Anchor>
             </li>
             <li>
               <Anchor href="https://www.instagram.com/invisible_walls/" target>
-                <Image alt="" src="/instaicon.png" width="50" height="50" />
+                <Image alt="" src="/instaicon.png" width="35" height="35" />
               </Anchor>
             </li>
           </ul>

@@ -256,7 +256,7 @@ article {
   border: none;
   padding: 2% 5%;
   font-weight: 800;
-  letter-spacing: 0.3vw;
+  letter-spacing: 2px;
   font-size: 0.8rem;
 }
 
@@ -266,17 +266,16 @@ article {
   background: url("/334488809_540071724778281_1717384824777940824_n.webp");
   background-position: center;
   background-size: cover;
+  min-height: 500px;
 }
-
+/* 
 .landingPage_imageArticle div {
   padding: 0 5vw;
   position: relative;
-  min-height: 500px;
   display: grid;
   grid-template-columns: 30vw 1fr;
   gap: 5vw;
   width: 100%;
-  /* backdrop-filter: blur(5px); */
   background-color: #000000ca;
 }
 
@@ -307,7 +306,7 @@ article {
   align-self: flex-end;
   justify-self: flex-end;
   box-shadow: var(--dark-colour) 3px 3px 5px 1px;
-}
+} */
 
 .linksSection {
   background-color: var(--main-bg-colour);
@@ -350,6 +349,36 @@ article {
 }
 .galleryArticle a img {
   height: 100%;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 1/1;
+  filter: grayscale(0.5);
+}
+.imgContainer::before {
+  content: "Games";
+  position: absolute;
+  z-index: 100;
+  top: 40%;
+  left: 30%;
+  right: 30%;
+  width: 40%;
+  margin: auto;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+  color: var(--accent-colour);
+  font-weight: 900;
+  text-shadow: var(--dark-colour) 2px 2px 2px;
+  font-size: 1.5rem;
+}
+.imgContainer:nth-of-type(1) + .imgContainer::before {
+  content: "About";
+}
+.imgContainer:nth-of-type(2) + .imgContainer::before {
+  content: "Career";
+}
+.imgContainer:nth-of-type(3) + .imgContainer::before {
+  content: "Contact";
 }
 
 .infoArticle {
@@ -370,7 +399,7 @@ article {
   background-color: var(--accent-colour);
   border: none;
   padding: 2% 5%;
-  letter-spacing: 0.3vw;
+  letter-spacing: 2px;
   transition: 0.3s;
   animation-timing-function: ease-in;
   cursor: pointer;
@@ -419,6 +448,9 @@ article {
   row-gap: 3vw;
   flex-direction: column;
   padding: 8vw 5vw;
+}
+.gamesGrid img {
+  filter: sepia(100%) hue-rotate(315deg) saturate(150%);
 }
 .gamesGrid article h4 {
   color: var(--accent-colour);
@@ -755,8 +787,12 @@ textarea::placeholder {
   .container:hover .overlay {
     opacity: 1;
   }
+  .imgContainer::before {
+    top: 50%;
+    text-shadow: var(--main-bg-colour-darker) 0px 0px 4px, var(--main-bg-colour-darker) 2px 2px, var(--main-bg-colour-darker) 3px 3px;
+  }
 
-  .imgContainer:hover::before {
+  /* .imgContainer:hover::before {
     content: "Games";
     position: absolute;
     z-index: 100;
@@ -770,7 +806,7 @@ textarea::placeholder {
     text-align: center;
     color: var(--accent-colour);
     font-weight: 900;
-    text-shadow: var(--dark-colour) 1px 1px 2px;
+    text-shadow: var(--dark-colour) 2px 2px 2px;
     font-size: 1.5rem;
   }
   .imgContainer:nth-of-type(1) + .imgContainer:hover::before {
@@ -781,7 +817,7 @@ textarea::placeholder {
   }
   .imgContainer:nth-of-type(3) + .imgContainer:hover::before {
     content: "Contact";
-  }
+  } */
   .galleryArticle img {
     filter: grayscale(1);
   }
@@ -868,14 +904,14 @@ textarea::placeholder {
       padding: 4vw 0;
       position: relative;
       height: inherit;
+      min-height: 600px;
     }
-    .landingPage_imageArticle div {
+    /*     .landingPage_imageArticle div {
       display: grid;
       grid-template-columns: 20vw 1fr;
       gap: 2vw;
-      min-height: 600px;
       padding: 0;
-    }
+    } */
     .infoArticle {
       padding: 4vw 2vw;
     }
