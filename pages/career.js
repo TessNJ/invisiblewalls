@@ -1,17 +1,11 @@
 import React from "react";
-import Head from "next/head";
+import HeadElement from "../components/HeadElement";
 import JobListItem from "../components/JobListItem";
 
 export default function Career({ data }) {
   return (
     <>
-      <Head>
-        <title>Career</title>
-        <meta name="description" content="Job listings" />
-        <meta name="robots" content="noindex,nofollow" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.webp" />
-      </Head>
+      <HeadElement title="Career" content="Job listings" />
       <main>
         <section className="careerIntro">
           <div>

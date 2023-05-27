@@ -1,29 +1,19 @@
-import Head from "next/head";
+import HeadElement from "../../components/HeadElement";
 import Image from "next/image";
 
 export default function Job({ data }) {
   const jobData = data[0];
   let showButton;
-  // console.log(jobData);
   let currentDate = new Date().toJSON().slice(0, 10);
   if (jobData.deadline > currentDate) {
-    // console.log("valid");
-
     showButton = <button className="applyButton">Apply Job</button>;
   } else {
-    // console.log("invalid");
     showButton = <p className="applyInvalid">Deadline has past</p>;
   }
 
   return (
     <>
-      <Head>
-        <title>{jobData.jobtitle}</title>
-        <meta name="description" content="Job post" />
-        <meta name="robots" content="noindex,nofollow" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.webp" />
-      </Head>
+      <HeadElement title={jobData.jobtitle} content="Job post" />
       <main className="jobPost">
         <section className="jobIntro">
           <div>

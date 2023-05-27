@@ -1,20 +1,13 @@
 import React from "react";
-import Head from "next/head";
+import HeadElement from "../components/HeadElement";
 import Game from "../components/Game";
 import { gamesdb } from "../modules/gamesdb";
 
 export default function Games({ data }) {
-  // console.log(data);
   const loopTime = 4;
   return (
     <>
-      <Head>
-        <title>Games</title>
-        <meta name="description" content="Game gallery" />
-        <meta name="robots" content="noindex,nofollow" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.webp" />
-      </Head>
+      <HeadElement title="Games" content="Game gallery" />
       <main>
         <section className="gamesIntro">
           <div>

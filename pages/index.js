@@ -1,17 +1,11 @@
-import Head from "next/head";
+import HeadElement from "../components/HeadElement";
 import Image from "next/image";
 import Anchor from "../components/Anchor";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Home</title>
-        <meta name="description" content="Landing Page" />
-        <meta name="robots" content="noindex,nofollow" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.webp" />
-      </Head>
+      <HeadElement title="Home" content="Landing Page" />
       <main>
         <section className="splashSection">
           <article className="landingPage_introArticle">
@@ -29,13 +23,7 @@ export default function Home() {
               </Anchor>
             </div>
           </article>
-          <article className="landingPage_imageArticle">
-            {/* <div>
-              <Image className="imageAr1" alt="" src={"/FirstClassIMG2.webp"} width="300" height="300"></Image>
-              <Image className="imageAr2" alt="" src={"/AporiaIMG.webp"} width="175" height="175"></Image>
-              <Image className="imageAr3" alt="" src={"/FirstClassIMG.webp"} width="100" height="100"></Image>
-            </div> */}
-          </article>
+          <article className="landingPage_imageArticle" />
         </section>
         <section className="linksSection">
           <ul>

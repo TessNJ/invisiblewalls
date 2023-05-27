@@ -1,17 +1,11 @@
 import React from "react";
-import Head from "next/head";
 import ContactForm from "../components/ContactForm";
+import HeadElement from "../components/HeadElement";
 
 export default function Contact() {
   return (
     <>
-      <Head>
-        <title>Contact</title>
-        <meta name="description" content="Contact Information" />
-        <meta name="robots" content="noindex,nofollow" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.webp" />
-      </Head>
+      <HeadElement title="Contact" content="Contact Information" />
       <main>
         <section className="contactIntro">
           <div>

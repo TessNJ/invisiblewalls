@@ -1,18 +1,12 @@
 import React from "react";
-import Head from "next/head";
+import HeadElement from "../components/HeadElement";
 import Employee from "../components/Employee";
 import HistoryDiv from "../components/HistoryDiv";
 
 export default function About({ data }) {
   return (
     <>
-      <Head>
-        <title>About</title>
-        <meta name="description" content="About the company" />
-        <meta name="robots" content="noindex,nofollow" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.webp" />
-      </Head>
+      <HeadElement title="About" content="About the company" />
       <main>
         <section className="aboutIntro">
           <div>
@@ -26,7 +20,6 @@ export default function About({ data }) {
         <section className="aboutHistory">
           <h2>Timeline of Invisible Walls</h2>
           <div className="historyList">
-            {/* <hr width="2" className="line" /> */}
             <article>
               <h4>2015</h4>
               <HistoryDiv name="Joined Investigate North">

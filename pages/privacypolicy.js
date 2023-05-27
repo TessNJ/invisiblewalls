@@ -1,16 +1,10 @@
 import React from "react";
-import Head from "next/head";
+import HeadElement from "../components/HeadElement";
 
 export default function Privacypolicy() {
   return (
     <>
-      <Head>
-        <title>Privacy Policy</title>
-        <meta name="description" content="Job listings" />
-        <meta name="robots" content="noindex,nofollow" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.webp" />
-      </Head>
+      <HeadElement title="Privacy Policy" content="Privacy Policy of the company" />
       <main className="privacyPolicy">
         <section>
           <h1>\\ Currently Under Review</h1>
