@@ -403,6 +403,7 @@ article {
 }
 .gamesGrid img {
   filter: sepia(100%) hue-rotate(315deg) saturate(150%);
+  border-radius: 37px;
 }
 .gamesGrid article h4 {
   color: var(--accent-colour);
@@ -813,7 +814,6 @@ textarea::placeholder {
     }
     .gamesGrid img {
       max-width: 60%;
-      border-radius: 37px;
     }
     .gallerySection {
       grid-template-columns: 1fr 43%;
