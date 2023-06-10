@@ -13,6 +13,8 @@
   --light-colour: white;
   --accent-colour: #ff412c;
   --accent-colour-darker: #d42815;
+  /* --secondary-accent-colour: #0cacb3; */
+  --secondary-accent-colour: #00a878;
   --main-font: "Nunito Sans", sans-serif;
   --header-font: "Bevan", cursive;
 }
@@ -108,7 +110,8 @@ header li {
 
 header a {
   color: var(--accent-colour);
-  font-weight: 700;
+  /* color: var(--secondary-accent-colour); */
+  font-weight: 800;
   font-style: normal;
   text-transform: uppercase;
 }
@@ -160,24 +163,8 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 15vw 2vw;
-  color: var(--main-font-colour);
+  color: var(--accent-colour);
   row-gap: 6vw;
-}
-
-footer nav li {
-  list-style: none;
-  color: var(--accent-colour);
-  font-weight: 500;
-}
-footer nav a {
-  font-size: 1rem;
-  font-style: italic;
-  color: var(--accent-colour);
-  font-weight: 700;
-}
-footer nav a:hover {
-  color: var(--accent-colour-darker);
-  font-style: normal;
 }
 footer nav {
   width: 100%;
@@ -186,7 +173,26 @@ footer nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
   justify-content: space-around;
+}
+
+footer nav li {
+  list-style: none;
+  /* color: grey; */
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+footer nav a {
+  font-style: italic;
+  color: var(--main-font-colour);
+  font-weight: 700;
+  font-size: 1rem;
+}
+footer nav a:hover {
+  color: var(--accent-colour-darker);
+  font-style: normal;
 }
 
 .footerLogos {
@@ -202,12 +208,16 @@ footer nav ul {
   transform: scale(1.1);
   transition: 0.2s ease-in-out all;
 }
+
 .socialLinks {
   display: flex;
   flex-direction: row;
   width: 100%;
   padding: 2vw;
   justify-content: space-around;
+}
+.socialLinks path {
+  fill: var(--main-font-colour);
 }
 .socialLinks a:hover {
   transform: scale(1.1);
@@ -223,8 +233,8 @@ footer nav ul {
 }
 .addressFooter p {
   font-size: 0.6rem;
-  font-weight: 200;
-  color: var(--main-font-colour);
+  font-weight: 400;
+  color: var(--accent-colour);
 }
 
 article {
@@ -256,7 +266,7 @@ article {
 
 .buttonSplash {
   align-self: flex-end;
-  background-color: var(--accent-colour);
+  background-color: var(--secondary-accent-colour);
   color: var(--dark-colour);
   border: none;
   padding: 2% 5%;
@@ -324,8 +334,11 @@ article {
   object-position: center;
   aspect-ratio: 1/1;
   filter: grayscale(0.5);
+  display: block; /* (or inline-block) */
+  margin: 0 0.05px;
 }
 .imgContainer::before {
+  pointer-events: none;
   content: "Games";
   position: absolute;
   z-index: 100;
@@ -337,7 +350,7 @@ article {
   height: 20px;
   padding: 10px;
   text-align: center;
-  color: var(--accent-colour);
+  color: var(--secondary-accent-colour);
   font-weight: 900;
   text-shadow: var(--dark-colour) 2px 2px 2px;
   font-size: 1.5rem;
@@ -364,6 +377,9 @@ article {
   justify-content: space-evenly;
   flex-direction: column;
   height: 300px;
+}
+path {
+  fill: var(--main-font-colour);
 }
 
 .gamesIntro,
@@ -613,7 +629,7 @@ textarea::placeholder {
 }
 .jobButton {
   padding: 0.6vw;
-  background-color: var(--accent-colour);
+  background-color: var(--secondary-accent-colour);
   margin: 0 40%;
   color: var(--dark-colour);
   font-size: 0.85rem;
@@ -720,6 +736,7 @@ textarea::placeholder {
     background-color: var(--dark-colour);
     visibility: visible;
     opacity: 1;
+    padding-bottom: 1rem;
   }
   header img {
     max-width: 100%;
@@ -729,6 +746,9 @@ textarea::placeholder {
   }
   footer {
     margin-left: 120px;
+  }
+  footer nav ul {
+    flex-wrap: nowrap;
   }
   .employeeGrid {
     padding: 6vw 10vw;
@@ -753,7 +773,7 @@ textarea::placeholder {
   }
   .imgContainer::before {
     top: 50%;
-    text-shadow: var(--main-bg-colour-darker) 0px 0px 4px, var(--main-bg-colour-darker) 2px 2px, var(--main-bg-colour-darker) 3px 3px;
+    text-shadow: var(--main-bg-colour-darker) 0px 0px 6px, var(--main-bg-colour-darker) 2px 2px 2px, var(--main-bg-colour-darker) 3px 3px 3px;
   }
 
   .galleryArticle img {
@@ -807,6 +827,10 @@ textarea::placeholder {
     footer {
       padding: 3vw 17vw;
       gap: 4vw;
+    }
+
+    .addressFooter p {
+      font-size: 0.8rem;
     }
     .footerLogos {
       justify-content: space-evenly;
@@ -939,24 +963,17 @@ textarea::placeholder {
   transform: scale3d(1, 1, 1);
 }
 .imgHover:hover {
-  transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1);
   filter: grayscale(0);
 }
-
-@keyframes popout {
-  from {
-    transition: scale(1);
-  }
-  to {
-    transition: scale(1.2);
-  }
+.spin {
+  -webkit-transition: 0.9s ease-out;
+  -moz-transition: 0.9s ease-out;
+  transition: 0.9s ease-out;
 }
 
-@-webkit-keyframes popout {
-  from {
-    -webkit-transform: scale(1);
-  }
-  to {
-    -webkit-transform: scale(1.2);
-  }
+.spin:hover {
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
 }
