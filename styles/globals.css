@@ -36,6 +36,9 @@ body {
   font-size: 16px;
   background-color: var(--main-bg-colour);
 }
+body {
+  cursor: url("/cursor.png"), auto;
+}
 
 img {
   max-width: 100%;
@@ -82,12 +85,12 @@ a {
   font-family: var(--main-font);
   text-decoration: none;
   display: block;
-  cursor: url("/cursor.png"), auto;
+  cursor: url("/cursor3.png"), auto;
 }
 button {
   font-family: var(--main-font);
   display: block;
-  cursor: url("/cursor.png") 2 2, auto;
+  cursor: url("/cursor3.png") 2 2, auto;
 }
 li {
   font-family: var(--main-font);
@@ -157,7 +160,7 @@ header img {
 .burgerMenu img {
   filter: brightness(0) invert(1);
   /* cursor: pointer; */
-  cursor: url("/cursor.png"), auto;
+  cursor: url("/cursor3.png") 2 2, auto;
 }
 
 footer {
