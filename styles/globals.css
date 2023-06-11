@@ -14,7 +14,8 @@
   --accent-colour: #ff412c;
   --accent-colour-darker: #d42815;
   /* --secondary-accent-colour: #0cacb3; */
-  --secondary-accent-colour: #00a878;
+  /* --secondary-accent-colour: #00a878; */
+  --secondary-accent-colour: #00b355;
   --main-font: "Nunito Sans", sans-serif;
   --header-font: "Bevan", cursive;
 }
