@@ -7,8 +7,8 @@ function Layout({ children }) {
   let logoHeight = "100";
 
   function unfoldMenu(event) {
-    document.querySelector(".burgerMenu").classNameList.toggle("active");
-    document.querySelector(".navMenu").classNameList.toggle("hideMenu");
+    document.querySelector(".burgerMenu").classList.toggle("active");
+    document.querySelector(".navMenu").classList.toggle("hideMenu");
   }
 
   return (
